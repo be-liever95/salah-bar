@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.22.2</title>
+      <pubDate>Sat, 10 Oct 2026 20:18:26 +0300</pubDate>
+      <sparkle:version>269</sparkle:version>
+      <sparkle:shortVersionString>2.22.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>📖 The Mushaf now follows the ayah being recited also while paused: it turns to its page and highlights it, and the Follow button goes there. Opening the Mushaf also turns to the recited page.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.22.2/Salah-Bar-2.22.2.dmg" sparkle:edSignature="FK1Hs1c1jH5p1nveV1onJXkf0RrK7ELr2nRw4F8cXWnTaE+9sJ7+6iqSV4TVM2b+C6ZQFpd5v8ZDj4VFYqDjCA==" length="54908896" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.22.1</title>
       <pubDate>Sat, 10 Oct 2026 19:56:51 +0300</pubDate>
       <sparkle:version>267</sparkle:version>
