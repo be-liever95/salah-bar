@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.22.1</title>
+      <pubDate>Sat, 10 Oct 2026 19:56:51 +0300</pubDate>
+      <sparkle:version>267</sparkle:version>
+      <sparkle:shortVersionString>2.22.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>📖 In a short Mushaf window, the page now scrolls instead of being cut off, and the ayah being recited is kept in view as the recitation moves on or the window is resized.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.22.1/Salah-Bar-2.22.1.dmg" sparkle:edSignature="04VCn1Ib3DO6qEAg4gTk4HMcQoLmAnE4bbsB/MZQzzf7EygxcGt+/HVFMXJBRwaLwhaz4BakVG2ct2m43+qkCA==" length="54904207" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.22.0</title>
       <pubDate>Sat, 10 Oct 2026 19:12:21 +0300</pubDate>
       <sparkle:version>265</sparkle:version>
