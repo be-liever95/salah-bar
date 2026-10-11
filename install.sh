@@ -21,7 +21,8 @@ set -euo pipefail
 REPO_SLUG="be-liever95/salah-bar"
 RELEASES_URL="${SALAH_BAR_RELEASES_URL:-https://api.github.com/repos/$REPO_SLUG/releases}"
 APP_NAME="Salah Bar"
-BUNDLE_ID="io.github.abdalmoamen95.salahbar"
+BUNDLE_ID="io.github.be-liever95.salahbar"
+OLD_BUNDLE_ID="io.github.abdalmoamen95.salahbar"   # up to 2.16.0
 APPS_DIR="${SALAH_BAR_APPS_DIR:-/Applications}"   # override only for testing
 APP_PATH="$APPS_DIR/$APP_NAME.app"
 MIN_MACOS=14
@@ -335,6 +336,7 @@ do_uninstall_app() {
   fi
   rm -rf "$data" "$logs"
   defaults delete "$BUNDLE_ID" >/dev/null 2>&1 || true
+  defaults delete "$OLD_BUNDLE_ID" >/dev/null 2>&1 || true
   echo
   green "✓ $APP_NAME has been removed."
 }

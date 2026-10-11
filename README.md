@@ -1213,7 +1213,8 @@ To remove its data and settings by hand instead:
 
 ```bash
 rm -rf ~/Library/Application\ Support/Salah\ Bar ~/Library/Logs/Salah\ Bar
-defaults delete io.github.abdalmoamen95.salahbar
+defaults delete io.github.be-liever95.salahbar
+defaults delete io.github.abdalmoamen95.salahbar   # versions up to 2.16.0
 ```
 
 The **Salah Bar Self-Signed** certificate only exists if you built Salah Bar

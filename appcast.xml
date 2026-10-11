@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.29.1</title>
+      <pubDate>Sun, 11 Oct 2026 16:29:30 +0300</pubDate>
+      <sparkle:version>326</sparkle:version>
+      <sparkle:shortVersionString>2.29.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Fixed: the Mushaf stopped turning pages with the recitation after you went to an ayah (⌘G) or opened an ayah&#39;s translation. Pressing play now follows the recitation again, and opening the Mushaf while a recitation plays shows its page.</li><li>Fixed: going to an ayah on the printed pages (Madani, Shamarly, IndoPak) the first time could open a nearby page instead.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.29.1/Salah-Bar-2.29.1.dmg" sparkle:edSignature="OlS4iOzj9t31h1Wge9JDFKoAL/wYzUtIlrodXLfwBxgpET48mT96zf9zt05G4pf/e4IblzXCWYhZoazNdX6VBg==" length="57287604" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.29.0</title>
       <pubDate>Sun, 11 Oct 2026 16:11:43 +0300</pubDate>
       <sparkle:version>294</sparkle:version>
