@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.25.0</title>
+      <pubDate>Sun, 11 Oct 2026 13:03:17 +0300</pubDate>
+      <sparkle:version>281</sparkle:version>
+      <sparkle:shortVersionString>2.25.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>📖 New: Khatma in the Quran window. It counts what you actually hear, with any reciter, shows the juz and surahs still missing, and Continue Khatma plays the parts you haven't heard yet, skipping what you have. Completed khatmas are kept in a log.</li><li>🎯 Khatma goals: a daily goal in pages or minutes, a monthly goal in khatmas (calendar or Hijri month, e.g. Ramadan), and an optional reminder at a time you choose on days a goal isn't met yet.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.25.0/Salah-Bar-2.25.0.dmg" sparkle:edSignature="71zFpe/zKdObqYYEngShDyAFXC3jZ6dQ4q2F+ZgxoXg7RgOFt7MbGTK2AII8mm1Zi+sRCxB4V/0EFruLPvLuDA==" length="55737048" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.24.1</title>
       <pubDate>Sun, 11 Oct 2026 12:55:48 +0300</pubDate>
       <sparkle:version>276</sparkle:version>
