@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.23.0</title>
+      <pubDate>Sun, 11 Oct 2026 11:56:28 +0300</pubDate>
+      <sparkle:version>271</sparkle:version>
+      <sparkle:shortVersionString>2.23.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🕌 Listening to a dhikr card no longer leaves the Quran stopped: it pauses for the dhikr and carries on after it. Closing the card (✕) stops its recording, and the Quran carries on.</li><li>🔊 New: Settings → Adhkar → Reading aloud. In the hours you choose, a card's recording plays by itself as it appears. Never in a meeting or a call, with the camera or microphone in use, or with Focus on: then the card comes silently, as before.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.23.0/Salah-Bar-2.23.0.dmg" sparkle:edSignature="mYVmBWTfGogWyvXHvg6YJ0o0oN2Dd5dAPuvzKTsXjggbRan2AZIcAiuu3falo810yT+Va4GiI4NKsQAOmSwzDQ==" length="54980387" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.22.2</title>
       <pubDate>Sat, 10 Oct 2026 20:18:26 +0300</pubDate>
       <sparkle:version>269</sparkle:version>
