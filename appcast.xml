@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.24.1</title>
+      <pubDate>Sun, 11 Oct 2026 12:55:48 +0300</pubDate>
+      <sparkle:version>276</sparkle:version>
+      <sparkle:shortVersionString>2.24.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🌐 New: Settings → Quran → Detect sound in browsers too (more accurate). Pause for other sounds now also works for WhatsApp Web, Slack in a browser or a YouTube video, and the Quran carries on as soon as you pause one. It measures how loud other apps are (macOS asks once for System Audio Recording; nothing is recorded or kept).</li><li>Pause for other sounds ignores short notification sounds better and no longer pauses for the gap between two songs of music already playing.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.24.1/Salah-Bar-2.24.1.dmg" sparkle:edSignature="cYUeyW1JmsTY3lRN6CKyHG7XH6HCJUPQtx60LVM2kt6jeqH+tnybHKUd6N8nblyK1y9C+3X9Li8Q+bf4+2QVAQ==" length="55094699" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.24.0</title>
       <pubDate>Sun, 11 Oct 2026 12:15:54 +0300</pubDate>
       <sparkle:version>273</sparkle:version>
