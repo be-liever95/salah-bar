@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.26.1</title>
+      <pubDate>Sun, 11 Oct 2026 14:20:00 +0300</pubDate>
+      <sparkle:version>285</sparkle:version>
+      <sparkle:shortVersionString>2.26.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>⚙️ New: Settings → Khatma, with your progress, the daily and monthly goals, the reminder and the widget option in one place.</li><li>The Khatma widget updates every minute while you listen, and right away when you play or pause (it waited five minutes before).</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.26.1/Salah-Bar-2.26.1.dmg" sparkle:edSignature="uUNAgnQoNnZqP2wB/dWpViLbJXG5uBmzzZdF735dcrKIu+3FiGixzfe68oefXDz4OFjxkeDMrg7und1QdkN5Bw==" length="56029910" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.26.0</title>
       <pubDate>Sun, 11 Oct 2026 13:20:43 +0300</pubDate>
       <sparkle:version>283</sparkle:version>
