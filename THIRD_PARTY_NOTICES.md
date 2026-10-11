@@ -68,6 +68,13 @@ with the app as `Amiri-OFL.txt`.
 English quotes use **Sahih International**; Turkish quotes use the
 **Diyanet İşleri Başkanlığı** translation. These belong to their publishers.
 
+The Mushaf's **translations and tafsirs** (Settings → Quran → Translations and
+Tafsir) come from **Quran for Android**'s list (https://android.quran.com, the
+same project as the printed pages): each is a database of one translation or
+tafsir, downloaded only when it's chosen, never bundled, and not covered by Salah
+Bar's license. They belong to their translators and publishers, whose names are
+shown under the text.
+
 ## Quran recitations
 The Quran player streams (and, on request, downloads) recitations from
 **mp3quran.net**, https://mp3quran.net, using its public API. The reciters

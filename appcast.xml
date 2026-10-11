@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.28.0</title>
+      <pubDate>Sun, 11 Oct 2026 15:58:31 +0300</pubDate>
+      <sparkle:version>291</sparkle:version>
+      <sparkle:shortVersionString>2.28.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>📖 New: translations and tafsir in the Mushaf. Right-click any ayah for its translation or tafsir in a panel under the page, with the ayahs before and after a click away; or show the translation under every ayah.</li><li>About 80 translations in every language and the classic Arabic tafsirs (Ibn Kathir, al-Tabari, al-Qurtubi, al-Sa&#39;di, al-Muyassar, al-Jalalayn and more), from Quran for Android. Each downloads the first time you show it, then works offline.</li><li>⌘G goes to any ayah: type 2:255, Baqarah 255 or البقرة ٢٥٥.</li><li>Settings → Quran → Translations and Tafsir chooses them and manages the downloads.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.28.0/Salah-Bar-2.28.0.dmg" sparkle:edSignature="d9bRR+5X4wxwBp1YgVBgfREU2HfDGzwpTEwOtROuhz0t9SAqKeC5tgznuNMkyGAFIJH6K04Nix/ZBUTWBvDYBg==" length="56559650" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.27.0</title>
       <pubDate>Sun, 11 Oct 2026 15:11:33 +0300</pubDate>
       <sparkle:version>287</sparkle:version>
