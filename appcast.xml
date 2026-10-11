@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.24.0</title>
+      <pubDate>Sun, 11 Oct 2026 12:15:54 +0300</pubDate>
+      <sparkle:version>273</sparkle:version>
+      <sparkle:shortVersionString>2.24.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>⏸️ New: Settings → Quran → Pause for other sounds. When another app starts playing sound or recording (a WhatsApp or Slack voice message, a video, or recording one yourself), the Quran and the duas pause, and carry on a moment after it ends.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.24.0/Salah-Bar-2.24.0.dmg" sparkle:edSignature="L1Rf6zb8TF7KzyW4JhM9/jLr3v0Ir+7box6ZGTH8kUD9dzNTe3mmS35Xvj/Fh2UcozQ5qRC5ddMbr6VhLsrMCA==" length="55013173" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.23.0</title>
       <pubDate>Sun, 11 Oct 2026 11:56:28 +0300</pubDate>
       <sparkle:version>271</sparkle:version>
