@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.26.0</title>
+      <pubDate>Sun, 11 Oct 2026 13:20:43 +0300</pubDate>
+      <sparkle:version>283</sparkle:version>
+      <sparkle:shortVersionString>2.26.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>📊 New: Salah Bar Khatma widget (Small, Medium, Large). Your khatma progress, today's and this month's goals with your streak, the month as a calendar shaded by how much of each day's goal you heard, and the 30 juz. Add it from Edit Widgets.</li><li>Settings → Appearance → Show the khatma in the Large widget adds a line with the khatma's progress, today's goal and the last seven days to the prayer widget.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.26.0/Salah-Bar-2.26.0.dmg" sparkle:edSignature="aX4hL4/UNQZCYWo5LWmpDCB+Xq4r3BRZUnvLQdscXep1FHVeWdSOgXO0KZy87JYuuyHgIm/V1k+uYvQWHgEoCA==" length="56070042" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.25.0</title>
       <pubDate>Sun, 11 Oct 2026 13:03:17 +0300</pubDate>
       <sparkle:version>281</sparkle:version>
