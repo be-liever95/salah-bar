@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.27.0</title>
+      <pubDate>Sun, 11 Oct 2026 15:11:33 +0300</pubDate>
+      <sparkle:version>287</sparkle:version>
+      <sparkle:shortVersionString>2.27.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>⏱️ New: how long the khatma takes. The Khatma view shows the whole Quran and what you have left with the chosen reciter, and how much a day to finish in a day, a week or a month; one click makes it your daily goal.</li><li>Compare Reciters lists your favourites by how long the khatma takes with each, fastest first.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.27.0/Salah-Bar-2.27.0.dmg" sparkle:edSignature="3dO1gbWBjKcFj8GsKOsDgKArJgL7SfbQzWyIuOjMbFZcDdkhfnBAVd76cdj4JUZ2Sej2+WHP+5A3NQiGDdXmCw==" length="56314860" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.26.1</title>
       <pubDate>Sun, 11 Oct 2026 14:20:00 +0300</pubDate>
       <sparkle:version>285</sparkle:version>
