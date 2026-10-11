@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.29.0</title>
+      <pubDate>Sun, 11 Oct 2026 16:11:43 +0300</pubDate>
+      <sparkle:version>294</sparkle:version>
+      <sparkle:shortVersionString>2.29.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>✓ Ticking off prayers is easier: each prayer that has begun shows an empty check, and a click anywhere on its row marks it prayed.</li><li>🔔 The panel warns when macOS has turned off Salah Bar&#39;s notifications (with a button to turn them on), and when the adhan won&#39;t be heard: reminders and adhan off, its volume at zero, or your Mac&#39;s sound muted.</li><li>Settings is grouped into Prayer Times, Reminders and Adhan, and Worship, with Off beside the adhan and reminders while they&#39;re off. The main switch is now called Reminders and adhan, and no longer greys out Sunnah tracking.</li><li>The welcome tour asks for location and notifications with its main button, with Not Now beside it.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.29.0/Salah-Bar-2.29.0.dmg" sparkle:edSignature="SVgcpWd1neIFEWRYPVUQsji/iKnYgB39lAHiD7e08MgaEdWYn2HGtcHyp9Jlncq6Ajhs7W/Eo/ZUMR2LzJwtAw==" length="56959162" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.28.0</title>
       <pubDate>Sun, 11 Oct 2026 15:58:31 +0300</pubDate>
       <sparkle:version>291</sparkle:version>
