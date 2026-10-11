@@ -5,10 +5,8 @@ live countdown to the next prayer, plays the adhan when the prayer time comes,
 and lets you listen to the Quran from 242 reciters.
 
 > [!TIP]
-> 🪟 **On Windows?** Get **[Salah Bar for Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**: the same countdown,
-> adhan, reminders, Quran player and widgets, in the Windows notification area (Windows 11).
-> Direct downloads: [most PCs (x64)](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest/download/SalahBar.Windows-win-x64-Setup.exe) ·
-> [Windows on Arm](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest/download/SalahBar.Windows-win-arm64-Setup.exe).
+> 🪟 **On Windows?** Get **[Salah Bar for Windows from the Microsoft Store](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**: the same
+> countdown, adhan, reminders, Quran player and widgets, in the Windows notification area (Windows 11).
 
 - 🕌 **Menu bar countdown**: `Dhuhr 01:22`, with a list of today's prayers one click away
 - 🔊 **Adhan** at prayer time, with volume, fade-in and a separate Fajr adhan
@@ -137,7 +135,7 @@ Updates…**. Updates install **without** any security warning.
 
 ### 🇹🇷 Türkçe kurulum
 
-**macOS 14 Sonoma veya üzeri gerekir.** Windows kullanıyorsanız: **[Windows için Salah Bar](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**.
+**macOS 14 Sonoma veya üzeri gerekir.** Windows kullanıyorsanız: **[Windows için Salah Bar](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**.
 
 **1. Yol: Terminal'de tek satır (en kolayı, uyarı yok)**
 
@@ -211,7 +209,7 @@ xattr -d com.apple.quarantine ~/Downloads/Salah-Bar-*.dmg
 
 ### 🇸🇦 التثبيت بالعربية
 
-**يتطلب macOS 14 Sonoma أو أحدث.** على Windows؟ نزّل **[Salah Bar لنظام Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**.
+**يتطلب macOS 14 Sonoma أو أحدث.** على Windows؟ نزّل **[Salah Bar لنظام Windows](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**.
 
 **الطريقة الأولى: سطر واحد في Terminal (الأسهل، بلا تحذيرات)**
 
@@ -293,7 +291,7 @@ xattr -d com.apple.quarantine ~/Downloads/Salah-Bar-*.dmg
 
 ### 🇵🇰 اردو میں انسٹال کریں
 
-**macOS 14 Sonoma یا اس سے نیا درکار ہے۔** Windows پر ہیں؟ **[Windows کے لیے Salah Bar](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)** ڈاؤن لوڈ کریں۔
+**macOS 14 Sonoma یا اس سے نیا درکار ہے۔** Windows پر ہیں؟ **[Windows کے لیے Salah Bar](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)** ڈاؤن لوڈ کریں۔
 
 **پہلا طریقہ: Terminal میں ایک سطر (سب سے آسان، کوئی وارننگ نہیں)**
 
@@ -372,7 +370,7 @@ xattr -d com.apple.quarantine ~/Downloads/Salah-Bar-*.dmg
 
 ### 🇮🇩 Pemasangan dalam Bahasa Indonesia
 
-**Memerlukan macOS 14 Sonoma atau yang lebih baru.** Memakai Windows? Unduh **[Salah Bar untuk Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**.
+**Memerlukan macOS 14 Sonoma atau yang lebih baru.** Memakai Windows? Unduh **[Salah Bar untuk Windows](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**.
 
 **Cara 1: satu baris di Terminal (paling mudah, tanpa peringatan)**
 
@@ -442,7 +440,7 @@ pilih **🕌 → Periksa Pembaruan…**. Pembaruan terpasang **tanpa** peringata
 
 ### 🇲🇾 Pemasangan dalam Bahasa Melayu
 
-**Memerlukan macOS 14 Sonoma atau lebih baharu.** Menggunakan Windows? Muat turun **[Salah Bar untuk Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**.
+**Memerlukan macOS 14 Sonoma atau lebih baharu.** Menggunakan Windows? Muat turun **[Salah Bar untuk Windows](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**.
 
 **Cara 1: satu baris dalam Terminal (paling mudah, tiada amaran)**
 
@@ -512,7 +510,7 @@ pilih **🕌 → Semak Kemas Kini…**. Kemas kini dipasang **tanpa** sebarang a
 
 ### 🇫🇷 Installation en français
 
-**macOS 14 Sonoma ou plus récent est requis.** Sous Windows ? Téléchargez **[Salah Bar pour Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**.
+**macOS 14 Sonoma ou plus récent est requis.** Sous Windows ? Téléchargez **[Salah Bar pour Windows](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**.
 
 **Méthode 1 : une ligne dans le Terminal (la plus simple, sans avertissement)**
 
@@ -586,7 +584,7 @@ aucun avertissement de sécurité.
 
 ### 🇷🇺 Установка на русском
 
-**Требуется macOS 14 Sonoma или новее.** У вас Windows? Скачайте **[Salah Bar для Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**.
+**Требуется macOS 14 Sonoma или новее.** У вас Windows? Скачайте **[Salah Bar для Windows](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**.
 
 **Способ 1: одна строка в Терминале (самый простой, без предупреждений)**
 
@@ -659,7 +657,7 @@ xattr -d com.apple.quarantine ~/Downloads/Salah-Bar-*.dmg
 
 ### 🇮🇷 نصب به فارسی
 
-**macOS 14 Sonoma یا جدیدتر لازم است.** Windows دارید؟ **[Salah Bar برای Windows](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)** را دانلود کنید.
+**macOS 14 Sonoma یا جدیدتر لازم است.** Windows دارید؟ **[Salah Bar برای Windows](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)** را دانلود کنید.
 
 **روش ۱: یک خط در Terminal (ساده‌ترین، بدون هشدار)**
 
