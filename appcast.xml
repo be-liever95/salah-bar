@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.30.0</title>
+      <pubDate>Mon, 12 Oct 2026 12:22:52 +0300</pubDate>
+      <sparkle:version>328</sparkle:version>
+      <sparkle:shortVersionString>2.30.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>New: control the recitation from the Mushaf window. Previous ayah, play/pause and next ayah sit in the middle of its bottom bar, and the space bar plays and pauses. With nothing playing, play starts from the page you're reading.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.30.0/Salah-Bar-2.30.0.dmg" sparkle:edSignature="vzgQNjPVGegDjf2EfrHcnl6ZcxoxJNvqxqDRcIkGVB+WiehBi1DS04QLxB60AQ7rXZGFNyLm73mBrSuyeh6XAw==" length="57351439" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.29.1</title>
       <pubDate>Sun, 11 Oct 2026 16:29:30 +0300</pubDate>
       <sparkle:version>326</sparkle:version>
