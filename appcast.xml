@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.30.1</title>
+      <pubDate>Tue, 13 Oct 2026 12:22:14 +0300</pubDate>
+      <sparkle:version>333</sparkle:version>
+      <sparkle:shortVersionString>2.30.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🎧 The Quran window follows what's playing: when a recitation starts from the menu bar, a routine, the khatma or Siri, or moves on to another reciter, the window shows that reciter's surahs and scrolls to the one playing, so the next surah is one click away.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.30.1/Salah-Bar-2.30.1.dmg" sparkle:edSignature="Y/pHTD1JoO/Ar40j8s1FqBHWNiSMFhTBzZzSFXOt43umLZN/dJ/XmsZAB2Zq4BHEKCtVrb6MQ6BT9FqNzZ8PDg==" length="57515312" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.30.0</title>
       <pubDate>Mon, 12 Oct 2026 12:22:52 +0300</pubDate>
       <sparkle:version>328</sparkle:version>
