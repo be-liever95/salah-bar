@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.31.0</title>
+      <pubDate>Tue, 13 Oct 2026 13:55:14 +0300</pubDate>
+      <sparkle:version>337</sparkle:version>
+      <sparkle:shortVersionString>2.31.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>📖 The Mushaf can now follow reciters that have no ayah timings. mp3quran.net publishes timings for only 115 of the 288 recitations; for the others the Mushaf now estimates them from the pauses in the recording, and then follows and skips ayah by ayah (labelled approximate). A downloaded surah is estimated by itself; for a streamed one, press Estimate from the audio in the notice under the page.</li><li>The Mushaf says when a reciter has no ayah timings, instead of silently estimating the page and skipping by surah.</li><li>In the Quran window, reciters with ayah timings carry a small mark, and a Timed filter lists only them.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.31.0/Salah-Bar-2.31.0.dmg" sparkle:edSignature="rgDnDuqo7tNwY+7QyNVxMTkKN6b0zeB/VLLSSbLjAloYdxbSuq6sapX2onMmNmtgF9XB7RDhTI8yXjpQwYJTAA==" length="57683533" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.30.1</title>
       <pubDate>Tue, 13 Oct 2026 12:22:14 +0300</pubDate>
       <sparkle:version>333</sparkle:version>
