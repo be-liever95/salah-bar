@@ -31,6 +31,7 @@ request they see your Mac's IP address.
 | Service | When | What it receives |
 |---|---|---|
 | **Apple** (macOS location services) | When your location changes | Your coordinates, to turn them into a place name such as "Manisa, TR" (Apple's own [privacy policy](https://www.apple.com/legal/privacy/) applies) |
+| **Apple Maps** (iPhone and iPad) | Only when you open Nearby mosques, on the Qibla screen | Your location, to find the mosques around it (Apple's own [privacy policy](https://www.apple.com/legal/privacy/) applies) |
 | **mp3quran.net** | Only when you use the Quran player | Requests for the reciters list (at most once a week) and for the surahs you play or download |
 | **hisnmuslim.com** | Only when you play a dua (Duas window, or Listen on a dhikr card) or download them for offline use | Requests for the recordings you play or download |
 | **GitHub** | When you add an adhan from the online library; in the version downloaded from GitHub, when it checks for updates (every 6 hours) | Requests for the adhan file, or for the update feed |

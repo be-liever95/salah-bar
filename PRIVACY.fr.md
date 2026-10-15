@@ -34,6 +34,7 @@ Mac.
 | Service | Quand | Ce qu’il reçoit |
 |---|---|---|
 | **Apple** (services de localisation de macOS) | Quand votre position change | Vos coordonnées, pour les transformer en nom de lieu tel que « Manisa, TR » (la [politique de confidentialité](https://www.apple.com/legal/privacy/) d’Apple s’applique) |
+| **Plans d’Apple** (iPhone et iPad) | Seulement quand vous ouvrez Mosquées à proximité, sur l’écran Qibla | Votre position, pour trouver les mosquées autour (la [politique de confidentialité](https://www.apple.com/legal/privacy/) d’Apple s’applique) |
 | **mp3quran.net** | Seulement quand vous utilisez le lecteur du Coran | Des requêtes pour la liste des récitateurs (au plus une fois par semaine) et pour les sourates que vous écoutez ou téléchargez |
 | **hisnmuslim.com** | Seulement quand vous écoutez une invocation (fenêtre Invocations, ou Écouter sur une carte de dhikr) ou les téléchargez pour une écoute hors ligne | Des requêtes pour les enregistrements que vous écoutez ou téléchargez |
 | **GitHub** | Quand vous ajoutez un adhan depuis la bibliothèque en ligne ; dans la version téléchargée depuis GitHub, quand elle recherche des mises à jour (toutes les 6 heures) | Des requêtes pour le fichier d’adhan, ou pour le flux de mises à jour |

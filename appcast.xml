@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.31.1</title>
+      <pubDate>Thu, 15 Oct 2026 14:41:58 +0300</pubDate>
+      <sparkle:version>350</sparkle:version>
+      <sparkle:shortVersionString>2.31.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Fixes the desktop widgets being nearly unreadable (pale text on a white card) in dark appearance. Turkish prayer names follow Diyanet (Sabah vs İmsak in Ramadan).]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.31.1/Salah-Bar-2.31.1.dmg" sparkle:edSignature="kaDczMPk8DeqeSrOXXonK79IKS2sUz6idId5Vi/JsfmJcgwa7VRY3Ol1kij8n5KuXVqQW40OgQf73GI91FTGAw==" length="57701204" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.31.0</title>
       <pubDate>Tue, 13 Oct 2026 13:55:14 +0300</pubDate>
       <sparkle:version>337</sparkle:version>

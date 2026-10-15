@@ -34,6 +34,7 @@ alamat IP Mac Anda.
 | Layanan | Kapan | Yang diterimanya |
 |---|---|---|
 | **Apple** (layanan lokasi macOS) | Saat lokasi Anda berubah | Koordinat Anda, untuk diubah menjadi nama tempat seperti "Manisa, TR" ([kebijakan privasi](https://www.apple.com/legal/privacy/) Apple sendiri berlaku) |
+| **Apple Maps** (iPhone dan iPad) | Hanya saat Anda membuka Masjid terdekat di layar Kiblat | Lokasi Anda, untuk menemukan masjid di sekitarnya ([kebijakan privasi](https://www.apple.com/legal/privacy/) Apple sendiri berlaku) |
 | **mp3quran.net** | Hanya saat Anda memakai pemutar Al-Qur'an | Permintaan daftar qari (paling banyak sekali seminggu) dan surah yang Anda putar atau unduh |
 | **hisnmuslim.com** | Hanya saat Anda memutar doa (jendela Doa, atau Dengarkan di kartu zikir) atau mengunduhnya untuk dipakai offline | Permintaan untuk rekaman yang Anda putar atau unduh |
 | **GitHub** | Saat Anda menambahkan azan dari pustaka online; pada versi yang diunduh dari GitHub, saat memeriksa pembaruan (setiap 6 jam) | Permintaan file azan, atau umpan (feed) pembaruan |

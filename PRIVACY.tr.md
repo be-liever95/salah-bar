@@ -32,6 +32,7 @@ ancak her web isteğinde olduğu gibi Mac'inizin IP adresini görürler.
 | Hizmet | Ne zaman | Ne alır |
 |---|---|---|
 | **Apple** (macOS konum servisleri) | Konumunuz değiştiğinde | Koordinatlarınız, "Manisa, TR" gibi bir yer adına çevrilmek için (Apple'ın kendi [gizlilik politikası](https://www.apple.com/legal/privacy/) geçerlidir) |
+| **Apple Haritalar** (iPhone ve iPad) | Yalnızca Kıble ekranında Yakındaki camiler'i açtığınızda | Konumunuz, çevresindeki camileri bulmak için (Apple'ın kendi [gizlilik politikası](https://www.apple.com/legal/privacy/) geçerlidir) |
 | **mp3quran.net** | Yalnızca Kuran oynatıcıyı kullandığınızda | Kâri listesi (en fazla haftada bir) ve dinlediğiniz ya da indirdiğiniz sureler için istekler |
 | **hisnmuslim.com** | Yalnızca bir dua dinlediğinizde (Dualar penceresi ya da zikir kartındaki Dinle) veya duaları çevrimdışı kullanım için indirdiğinizde | Dinlediğiniz ya da indirdiğiniz kayıtlar için istekler |
 | **GitHub** | Çevrimiçi kütüphaneden ezan eklediğinizde; GitHub'dan indirilen sürümde güncellemeleri denetlerken (6 saatte bir) | Ezan dosyası veya güncelleme akışı için istekler |
