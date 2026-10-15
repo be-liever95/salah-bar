@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.32.0</title>
+      <pubDate>Thu, 15 Oct 2026 17:19:19 +0300</pubDate>
+      <sparkle:version>387</sparkle:version>
+      <sparkle:shortVersionString>2.32.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🗓️ Hijri month calendar: click the Hijri date in the menu to see the whole month, with the Islamic days marked (in Turkish, the Kandil nights too).</li><li>🔄 Sync with Android: Settings → General → Sync file keeps your settings, cities, prayer log, Ramadan log, Quran progress and khatma in one file in your own cloud drive (Google Drive, OneDrive, Dropbox…), which the Android app reads too. iCloud keeps working beside it.</li><li>After Isha, tomorrow's Fajr is named as tomorrow's schedule names it (Turkish: Sabah in Ramadan, İmsak otherwise), also the night before Ramadan starts.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.32.0/Salah-Bar-2.32.0.dmg" sparkle:edSignature="yojpNJQlYNr7Bwm6Ft3XvSsyqZ0yjjAS5VhE3YGVwr3XCHstHJG473re2fL0vW47j1LaparYzyWK7cedh43gBA==" length="58433060" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.31.1</title>
       <pubDate>Thu, 15 Oct 2026 14:41:58 +0300</pubDate>
       <sparkle:version>350</sparkle:version>
