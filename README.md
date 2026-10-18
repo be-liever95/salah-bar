@@ -30,7 +30,8 @@ and lets you listen to the Quran from 242 reciters.
 - 🕰️ **Routines and a daily wird**: read the whole Quran a few pages a day from where you stopped, and have the Quran, a surah or the morning adhkar ready after Fajr, at a set time or when a Focus turns on ([more](#routines-and-the-daily-wird))
 - 🤲 **Duas you can listen to**: all of Hisn al-Muslim (Fortress of the Muslim), 267 duas in 132 chapters by topic, each with its Arabic, its meaning and a recording; play a chapter, count repetitions, keep it offline ([more](#duas))
 - 🌙 **A Ramadan companion**: your fasts and fasts to make up, a Quran khatm plan you can listen to, the iftar and Laylat al-Qadr duas, suhoor and Taraweeh reminders, an iftar countdown in the menu bar, then the six days of Shawwal ([more](#ramadan))
-- 🕋 **Hijri date** and **Qibla** direction
+- 🕋 **Hijri date** and **Qibla** direction, with the **Hijri month** as a calendar one click from the date (your Hijri adjustment included)
+- 🔄 **Sync across your devices**: settings, prayer log, fasts and Quran progress, through iCloud (Mac App Store version) or through a **sync file** you keep in any cloud drive (Google Drive, OneDrive, Dropbox…), which every version can use (Settings → General → Sync file)
 - 🌍 **12 languages**: English, Türkçe, العربية, اردو, Bahasa Indonesia, Bahasa Melayu, Français, Русский, Deutsch, বাংলা, فارسی and Español, with a right-to-left layout in Arabic, Urdu and Persian, and Arabic-Indic digits (٠١٢) in Arabic
 - 👋 **Easy to start**: a short welcome tour sets it up with you (language, location, notifications and the adhan) and shows what's inside ([more](#the-welcome-tour))
 - 📍 **Your location, your cities**: times follow where your Mac is, and you add only the cities you want

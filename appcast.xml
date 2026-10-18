@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.33.0</title>
+      <pubDate>Mon, 19 Oct 2026 01:26:41 +0300</pubDate>
+      <sparkle:version>411</sparkle:version>
+      <sparkle:shortVersionString>2.33.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>⏩ Quran speed: a speed button in the Quran window's player bar plays the recitation from 0.5× to 2×, with the reciter's voice kept natural. Hifz keeps its own speed.</li><li>VoiceOver reads the names of the icon-only buttons in the menu, the mini-player, the Quran window and Reminders settings, in the app's language.</li><li>macOS itself in every app language: Siri phrases and the permission prompts.</li><li>Reminders in the hour repeated when the clocks go back fire at the right time instead of an hour early.</li><li>Sync file: another device's changes written at the same moment are no longer lost.</li><li>Suhoor wakes: Settings shows when they no longer match your city or calculation, with Update….</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.33.0/Salah-Bar-2.33.0.dmg" sparkle:edSignature="xSvXFMzlQDVBO7irjR4Ei+f2qz3s9SnF1IfN9u4Atm/jm179jtTVMrs/5zamcIY5MnW1Be35nP3Yub+KmBVoAw==" length="58531491" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.32.0</title>
       <pubDate>Thu, 15 Oct 2026 17:19:19 +0300</pubDate>
       <sparkle:version>387</sparkle:version>
