@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.34.0</title>
+      <pubDate>Thu, 22 Oct 2026 17:49:05 +0300</pubDate>
+      <sparkle:version>455</sparkle:version>
+      <sparkle:shortVersionString>2.34.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[🌅 Counts down to sunrise after Fajr, when the time to pray Fajr ends (General). 🕌 Nearby mosques: the Mosques button beside the Qibla. 📿 Tasbih in the Duas window. 🔕 Your iPhone can stay silent at prayer time while you're on the Mac. 🧹 A new reminder clears the earlier ones. ✨ What's new after each update.]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.34.0/Salah-Bar-2.34.0.dmg" sparkle:edSignature="YZX6z08czOrFN+C5X3OKriBPCyWBj18jJGuRi4Om+2GZmWFttjqWsLYoPyeVCooHW2Yu2OKb/Y0bDiBi4ix9CQ==" length="59273749" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.33.1</title>
       <pubDate>Mon, 19 Oct 2026 11:41:49 +0300</pubDate>
       <sparkle:version>413</sparkle:version>
