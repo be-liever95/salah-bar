@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.35.0</title>
+      <pubDate>Wed, 28 Oct 2026 17:25:49 +0300</pubDate>
+      <sparkle:version>500</sparkle:version>
+      <sparkle:shortVersionString>2.35.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[🔎 Search every setting, with what needs your attention at the top. 🕌 Brothers can log a prayer as prayed in jama'ah or in the masjid (Settings → Reminders → Prayer Log). 🌙 For sisters: the Mac follows the excused days logged on your iPhone. ✨ What's new lists it all after the update.]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.35.0/Salah-Bar-2.35.0.dmg" sparkle:edSignature="bWmEAzvbUVjS6sV7Utd3oq6a3WkS947udvL4y1YnqSqCtpetyfieLnmYTECNxWuXw+rhqj/Y54Hs7LoOP3rUAw==" length="61988912" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.34.0</title>
       <pubDate>Thu, 22 Oct 2026 17:49:05 +0300</pubDate>
       <sparkle:version>455</sparkle:version>

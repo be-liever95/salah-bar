@@ -64,6 +64,27 @@ floating Mushaf) under the
 [SIL Open Font License 1.1](https://openfontlicense.org); its licence text ships
 with the app as `Amiri-OFL.txt`.
 
+## Share-card fonts (iPhone, iPad, Android)
+
+Share cards can also set the Arabic in these fonts, bundled unmodified from
+[Google Fonts](https://github.com/google/fonts) under the
+[SIL Open Font License 1.1](https://openfontlicense.org); each licence text ships
+beside its font (`<family>-OFL.txt`):
+[Scheherazade New](https://software.sil.org/scheherazade/) (SIL International),
+[Noto Naskh Arabic](https://notofonts.github.io/) and
+[Noto Nastaliq Urdu](https://notofonts.github.io/) (The Noto Project Authors),
+[Aref Ruqaa](https://github.com/aliftype/aref-ruqaa) (Khaled Hosny, Abdullah Aref),
+[Reem Kufi](https://github.com/aliftype/reem-kufi) (Khaled Hosny, Santiago Orozco),
+[El Messiri](https://github.com/Jovanny-Lemonad/El-Messiri) (Jovanny Lemonad, Mohamed Gaber).
+
+## The Dhikr tab's hands (🤲)
+
+The Dhikr tab's icon is the "palms up together" emoji (U+1F932) from
+[Noto Emoji](https://github.com/google/fonts/tree/main/ofl/notoemoji), weight 600,
+Copyright 2013 Google LLC, under the
+[SIL Open Font License 1.1](https://openfontlicense.org): its outline taken
+unchanged from the font, as a vector image (`DuaHands` in the iPhone app).
+
 ## Translations
 English quotes use **Sahih International**; Turkish quotes use the
 **Diyanet İşleri Başkanlığı** translation. These belong to their publishers.
