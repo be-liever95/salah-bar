@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.35.1</title>
+      <pubDate>Thu, 29 Oct 2026 07:17:17 +0300</pubDate>
+      <sparkle:version>509</sparkle:version>
+      <sparkle:shortVersionString>2.35.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[⭐ Jama'ah and masjid achievements in the Prayer Log: prayers in the masjid and in jama'ah, Fajr and Isha in the masjid, your masjid streak and the forty days of all five in jama'ah (at-Tirmidhi 241).]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.35.1/Salah-Bar-2.35.1.dmg" sparkle:edSignature="ageNXYIyn0/9n10s3rQ9kidrWYXuI8sqrJQEarzZHyaZY/QNdgEYALZfJqjWs2gsMwfF3VqwBGubY6vSNkLKDA==" length="62069253" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.35.0</title>
       <pubDate>Wed, 28 Oct 2026 17:25:49 +0300</pubDate>
       <sparkle:version>500</sparkle:version>

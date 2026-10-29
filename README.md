@@ -8,7 +8,10 @@ and lets you listen to the Quran from 242 reciters.
 > 🪟 **On Windows?** Get **[Salah Bar for Windows from the Microsoft Store](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**: the same
 > countdown, adhan, reminders, Quran player and widgets, in the Windows notification area (Windows 11).
 
-- 🕌 **Menu bar countdown**: `Dhuhr 01:22`, with a list of today's prayers one click away
+> [!TIP]
+> 📱 **Salah Bar for iPhone, iPad and Apple Watch** is built and coming to the App Store: [what it does](#salah-bar-on-iphone-ipad-and-apple-watch).
+
+- 🕌 **Menu bar countdown**: `Dhuhr 01:22`, with a list of today's prayers one click away; after Fajr it counts down to sunrise, when Fajr's time ends (you can turn that off)
 - 🔊 **Adhan** at prayer time, with volume, fade-in and a separate Fajr adhan
 - 🎙 **Your own adhan**: add any audio file, or pick from **169 adhans** in the online library
 - ✂︎ **Trim the adhan**: play just the part you like, chosen on a waveform
@@ -16,12 +19,13 @@ and lets you listen to the Quran from 242 reciters.
 - 🤲 **Quran and adhan together**: at prayer time the recitation fades out, the adhan plays, then the recitation carries on
 - 🔔 **Reminders** before each prayer, with a **Silence** button that stops the adhan
 - 🕌 **Iqama times** for your mosque, with a countdown to the jama'ah after each adhan
-- ✅ **Prayer log**: tick off prayers, keep a streak and, if you like, count qada to make up; private, on your Mac
+- ✅ **Prayer log**: tick off prayers, keep a streak and, if you like, count qada to make up, or mark whether you prayed alone, in jama'ah or in the masjid; private, on your Mac
 - 📅 **Calendar that respects prayer**: a warning when a meeting overlaps a prayer, and optional "busy" prayer blocks
 - 🕋 **Friday and Sunnah reminders**: Al-Kahf on Fridays, Monday/Thursday and White Days fasts, the last third of the night, each with its hadith
 - 🌕 **The White Days**: from the 12th to the 15th of each Hijri month, the panel shows the three moons and the hadith of Abu Dharr ([more](#more-for-every-prayer))
 - 📖 **Hifz mode**: repeat ayat with the Arabic text highlighted, to memorise
-- 🗣 **Siri and Shortcuts**: "When is Asr in Salah Bar", "Play Surah Al-Kahf in Salah Bar"
+- 🗣 **Siri and Shortcuts**: "When is Asr in Salah Bar", "Play Surah Al-Kahf in Salah Bar"; on macOS 26, **Next Prayer**, **Mark Prayed** and **Stop Adhan** as Control Center controls
+- 🔍 **Settings you can search**: find any setting by name, with anything that needs your attention at the top, and **What's new** after each update
 - ⚡ **A flash you won't miss**: a green glow pulses around your screen and the menu bar icon blinks before the adhan (**Stop Flashing** when you've seen it)
 - 🖥 **Desktop widgets** in Small, Medium and Large
 - 📖 **A rotating ayah or dua**: 42 ayahs, Quranic duas and hadiths, changing every 15 minutes to once a day
@@ -29,8 +33,9 @@ and lets you listen to the Quran from 242 reciters.
 - 📖 **A floating Mushaf**: the page being recited, above your other windows, with the ayah highlighted as the reciter reads it; text or printed pages (Madani, Shamarly, IndoPak), one page or two; click an ayah to play from it ([more](#the-floating-mushaf))
 - 🕰️ **Routines and a daily wird**: read the whole Quran a few pages a day from where you stopped, and have the Quran, a surah or the morning adhkar ready after Fajr, at a set time or when a Focus turns on ([more](#routines-and-the-daily-wird))
 - 🤲 **Duas you can listen to**: all of Hisn al-Muslim (Fortress of the Muslim), 267 duas in 132 chapters by topic, each with its Arabic, its meaning and a recording; play a chapter, count repetitions, keep it offline ([more](#duas))
+- 📿 **Tasbih**: in the Duas window, the dhikr after salah, one dhikr to a count, or a free count; the space bar counts too
 - 🌙 **A Ramadan companion**: your fasts and fasts to make up, a Quran khatm plan you can listen to, the iftar and Laylat al-Qadr duas, suhoor and Taraweeh reminders, an iftar countdown in the menu bar, then the six days of Shawwal ([more](#ramadan))
-- 🕋 **Hijri date** and **Qibla** direction, with the **Hijri month** as a calendar one click from the date (your Hijri adjustment included)
+- 🕋 **Hijri date** and **Qibla** direction, with the **Hijri month** as a calendar one click from the date (your Hijri adjustment included), and **nearby mosques** from Apple Maps beside the Qibla, one click for directions
 - 🔄 **Sync across your devices**: settings, prayer log, fasts and Quran progress, through iCloud (Mac App Store version) or through a **sync file** you keep in any cloud drive (Google Drive, OneDrive, Dropbox…), which every version can use (Settings → General → Sync file)
 - 🌍 **12 languages**: English, Türkçe, العربية, اردو, Bahasa Indonesia, Bahasa Melayu, Français, Русский, Deutsch, বাংলা, فارسی and Español, with a right-to-left layout in Arabic, Urdu and Persian, and Arabic-Indic digits (٠١٢) in Arabic
 - 👋 **Easy to start**: a short welcome tour sets it up with you (language, location, notifications and the adhan) and shows what's inside ([more](#the-welcome-tour))
@@ -741,9 +746,9 @@ xattr -d com.apple.quarantine ~/Downloads/Salah-Bar-*.dmg
 
 Click the countdown in the menu bar to open the panel. It shows:
 
-- the next prayer with a big countdown (and **Stop Flashing** during the warning before it)
+- the next prayer with a big countdown (and **Stop Flashing** during the warning before it); after Fajr, the countdown to sunrise
 - today's times, including Sunrise, and Imsak during Ramadan
-- the Hijri date and an arrow pointing to the Qibla
+- the Hijri date and an arrow pointing to the Qibla, with **nearby mosques** from Apple Maps a click away (click one for directions)
 - a city switcher for your current location and saved cities
 - an ayah or dua that changes on the schedule you choose
 - **Stop Adhan** while the adhan is playing
@@ -787,18 +792,22 @@ Already using Salah Bar from before the tour? The menu panel offers it once:
 ![Settings, General](assets/screenshots/settings-general-en.png)
 
 Settings is laid out like System Settings: pages in a sidebar, each with its
-own icon, and the hadith at the top of **General**.
+own icon, and the hadith at the top of **General**. The **search field** above
+the sidebar finds any setting by name, with anything that needs your attention
+at the top.
 
 | Page | What you can change |
 |---|---|
-| **General** | Language (English, Turkish, Arabic, Urdu, Indonesian, Malay, French, Russian, German, Bengali, Persian or Spanish), Arabic-Indic digits, seconds in the menu bar, launch at login, automatic updates |
+| **General** | Language (English, Turkish, Arabic, Urdu, Indonesian, Malay, French, Russian, German, Bengali, Persian or Spanish), Arabic-Indic digits, seconds in the menu bar, the countdown to sunrise after Fajr, launch at login, automatic updates, the welcome tour again, **What's new**, and the sync file |
 | **Location** | Automatic location or a saved city, city search, adding a city by coordinates |
 | **Prayer Times** | Calculation method, Asr school (Standard or Hanafi), per-prayer minute adjustments, Hijri date correction (±2 days) |
 | **Ramadan** | The Ramadan companion and each of its reminders, the iftar countdown in the menu bar, the khatm plan, fasts to make up, Ramadan mode |
 | **Iqama** | Your mosque's iqama for each prayer and for Jumu'ah, and a reminder before it |
-| **Reminders** | When to remind you (10, 5 and 0 minutes before, or your own), and the Friday and Sunnah reminders |
+| **Reminders** | When to remind you (10, 5 and 0 minutes before, or your own), the Friday and Sunnah reminders, and the prayer log: "Did you pray?" reminders, qada, Sunnah prayers, and **Log jama'ah and the masjid** |
 | **Adhan** | Adhan on/off, volume, fade-in, staying quiet during calls, pausing other audio, adhan and Fajr adhan tracks with preview and trimming, **My adhans** (your own files and the online library) |
 | **Quran** | What happens when the adhan is due while the Quran plays, playing on to the next surah, downloads and the space they use |
+| **Routines** | The daily wird and your routines ([more](#routines-and-the-daily-wird)) |
+| **Adhkar** | Dhikr cards and the morning and evening adhkar ([more](#dhikr-cards)) |
 | **Calendar** | Warnings when a meeting overlaps a prayer, and prayer blocks in your calendar |
 | **Appearance** | The "prayer is near" flash warning (minutes before, menu bar blink, screen-edge glow with a Preview), the ayah & dua (on/off, change every 15 min to once a day, which kinds) and the theme (System, Light or Dark) |
 | **Advanced** | Remove the old SwiftBar version, import its settings again, open the logs folder |
@@ -912,6 +921,11 @@ searchable, in Arabic too, with or without vowel marks.
   downloads all of them (about 120 MB) to listen without the internet.
 - At prayer time a dua pauses for the adhan like the Quran does, and the Quran and the
   duas never play over each other.
+- **Tasbih**: the window's first row counts the dhikr after salah (33, 33 and 34), one
+  dhikr of your choice to a count, or a free count. Click anywhere on the counter, or
+  press the space bar, to count; a light tap at each one and a stronger one at the end
+  of each dhikr on a Force Touch trackpad, so you can keep it without looking. It
+  remembers where you were.
 
 | English | العربية |
 |---|---|
@@ -932,6 +946,9 @@ searchable, in Arabic too, with or without vowel marks.
   Turn on **Track Sunnah prayers** there too for a second, smaller gold check beside
   Fajr, Dhuhr, Maghrib and Isha (and Asr, if you include the 4 before it) for their
   regular Sunnah, logged apart so your streak and qada stay as they are.
+  With **Log jama'ah and the masjid** on (Settings → Reminders → Prayer Log), each
+  prayed prayer gets a small button beside its check to say whether you prayed alone, in
+  jama'ah or in the masjid, shown as one person, two people or a mosque in the log.
 - **Calendar** (Settings → Calendar, off by default): Salah Bar warns you
   when a meeting overlaps a prayer, e.g. *"Your 13:00 meeting overlaps Dhuhr (13:04)"*,
   and can add short busy "Dhuhr", "Asr"… blocks to a calendar you choose. It only
@@ -1122,6 +1139,73 @@ between saved cities from the menu panel.
 
 Turn on **Settings → General → Launch at login**. This works once Salah Bar is
 in your **Applications** folder.
+
+---
+
+## Salah Bar on iPhone, iPad and Apple Watch
+
+Salah Bar for iPhone and iPad, with the Apple Watch app inside it, is built and
+tested in the same project as the Mac app and is **coming to the App Store**. It
+isn't available yet, and there's no date to give: it waits on the App Store
+listing. Until then, this is what it does, so you know what to expect.
+
+**On the iPhone and iPad** (iOS 17 or later; the same settings, methods, languages
+and privacy as on the Mac):
+
+- **Today**: the next prayer with a live countdown (to sunrise after Fajr), today's
+  times (tomorrow's after Isha), tap a prayer to mark it prayed, the Hijri date, the
+  Qibla, the ayah or dua, the Friday Al-Kahf reminder, and the Ramadan and White Days
+  cards.
+- **The adhan**: as the prayer-time notification, with the full adhan when you open it;
+  reminders before each prayer; per device, the adhan, a silent notification or nothing,
+  and **silent while you use your Mac**, so one device plays it, not three.
+- **A Live Activity** on the Lock Screen and in the Dynamic Island: the time left first,
+  today's times in a row with the next in gold, and "Asr in 9:59" as the prayer nears.
+- **Widgets and controls**: a Prayer Clock widget on the Home Screen, Lock Screen widgets
+  (a ring filling to the next prayer, the next prayer and its countdown, the inline line),
+  a dark **StandBy** look while the iPhone charges on its side (a prayer clock in the
+  app too), and **Next Prayer**, **Mark Prayed** and **Stop Adhan** in Control Center
+  and on the iPhone's Action button. Siri: "When is Asr in Salah Bar".
+- **Dhikr**: the Quran player with the same 242 reciters, offline downloads, speed from
+  0.5× to 2×, the Mushaf with translations and tafsir, Hifz mode and a khatma by
+  listening; the Duas with **five reciters** to choose from (Hamad al-Duraihim, Sulayman
+  al-Shuwaihi, Walid Abu Ziyad, Abu Ahmad al-Shaydhmi and the Dua & Zikr app's reciter),
+  an offline copy per reciter, and **Reading and voice**: the Arabic's font and size,
+  and the meaning read aloud; the tasbih and the morning and evening adhkar.
+- **Share cards**: an ayah, dua, hadith (45 of them, with their sources) or Today's
+  reminder as a styled image, square, portrait or story, with eight Arabic fonts and
+  thirty nature photos, saved to Photos or shared anywhere.
+- **Stickers**: four packs (greetings, dhikr, occasions and duas) for WhatsApp, Telegram
+  and Messages, and a sticker maker for your own.
+- **The Prayer Log** with streaks, Sunnah ticks, qada and, for brothers, jama'ah and
+  the masjid.
+- **For sisters**: choose *Sister* under Settings → General → About you for excused days
+  (logged, never shown in widgets or on the watch), the fasts to make up, and words for
+  you from the Quran and the Sunnah; optionally linked with Apple Health's cycle
+  tracking, on the device only.
+- **The Qibla** as a compass and on a map, with nearby mosques.
+- **Settings** with the same search, What's new, iCloud sync with the Mac App Store
+  version (or the sync file shared with Windows and Android), and diagnostics you can
+  share when something goes wrong.
+- **On the iPad**: a sidebar instead of the tab bar, two columns on the wider screens,
+  and ⌘1 to ⌘5 for the sections on a keyboard.
+- **CarPlay**: prayer times, the Quran and the duas on the car's screen as an audio app.
+  It needs an entitlement Apple grants on request, so it arrives after the App Store
+  listing; widgets and the Live Activity reach the CarPlay dashboard on iOS 26 without it.
+
+**On the Apple Watch** (watchOS 10 or later, with the iPhone app):
+
+- The next prayer and its countdown, today's times with **Prayed ✓** synced with the
+  iPhone's log, the Qibla, and a **tasbih**: tap anywhere to count (or double-tap your
+  fingers on watches that have it), with a tick at each count and a stronger one at the
+  end of each dhikr.
+- The times are calculated on the watch, so they stay right away from the phone; when
+  the iPhone follows your location, the watch uses its own place when you're far from it.
+- A Smart Stack widget that asks "Did you pray Asr?" once a prayer has begun, with
+  Prayed right there; the iPhone's prayer-time alert on the wrist; Siri on the watch.
+
+The [privacy policy](PRIVACY.md) covers these apps too: nothing is collected, and
+Health, Photos and Calendar access are used only on the device.
 
 ---
 
