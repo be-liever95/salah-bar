@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.36.0</title>
+      <pubDate>Fri, 30 Oct 2026 11:05:11 +0300</pubDate>
+      <sparkle:version>582</sparkle:version>
+      <sparkle:shortVersionString>2.36.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🔄 Sync keeps your settings: if the other device leaves one out (Windows 1.10 leaves out For sisters and jama'ah), this Mac keeps its own value. Update Salah Bar on every device you sync with.</li><li>📒 The prayer log moves to a file of its own. If you go back to 2.35 afterwards, its Prayer Log shows up empty.</li><li>🕌 New: a zakat calculator, Quran search and bookmarks, the 99 Names, iqama times from your mosque, a printable timetable and Ramadan imsakiye, a qada planner, and Export all my data / Restore.</li><li>🌙 On the Mac too: For sisters, Reading and voice, the Qibla on a map. ✨ What's new lists it all after the update.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.36.0/Salah-Bar-2.36.0.dmg" sparkle:edSignature="K6b9RDOAWVM0xVg+xZ5otwqejR6kug36cAj7J7eDesuqZsu/PAq4bBBn+cyUgFXuSflfJDxNwB5iq5Ume+JLAw==" length="67225786" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.35.1</title>
       <pubDate>Thu, 29 Oct 2026 07:17:17 +0300</pubDate>
       <sparkle:version>509</sparkle:version>
