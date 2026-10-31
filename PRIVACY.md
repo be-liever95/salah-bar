@@ -134,11 +134,14 @@ device's IP address.
 | **GitHub** | When you add an adhan from the online library; and, in the Mac version downloaded from GitHub, when it checks for updates (every 6 hours, with the Sparkle updater) | Requests for the adhan file (from this project's GitHub releases), or for the update feed |
 | **Your mosque's website** (the link you give) or **islamic.app** (api.islamic.app) | Only with *Iqama times from your mosque* on (Settings → Iqama): when you save the link, when you tap *Refresh now*, and once a week | A request for the iqama timetable at that link (or that islamic.app mosque); nothing is sent with it |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Only with *Sync with Google Drive* on: when you sign in, and at each sync | Your sign-in, on Google's own page, and the sync file described above, to and from your own Drive |
+| **Your country's religious authority** (dinhizmetleri.diyanet.gov.tr with e-Devlet's copy at www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Only with *This week's khutbah* on (iPhone, iPad and Android): when you open its screen (at most once an hour), and on Thursday and Friday until the week's sermon is in | A request for the authority's list of sermons, and for the PDF or recording you open or download |
+| **YouTube** (www.youtube.com) | With Türkiye's (Diyanet's) khutbah list, at the same times | A request for the public feed of Salah Bar's own YouTube channel, to find the week's khutbah video; no account, no key, no cookies |
+| **YouTube's player** (www.youtube-nocookie.com) | Only when you tap *Watch* on a week's khutbah | The video plays in YouTube's privacy-enhanced player inside the app; Salah Bar sends nothing about you, and [Google's privacy policy](https://policies.google.com/privacy) applies to the player |
 
 Nothing else is contacted. Tanzil.net (the Quran text), Aladhan and Diyanet
 (prayer-time tables used in the app's tests) are credited in the app, but the
 app never connects to them: the Quran text ships inside the app, and prayer
-times are calculated on your device, not downloaded.
+times are calculated on your device, not downloaded. Diyanet's list of Friday sermons (*This week's khutbah*, above) is the one exception.
 
 **The weather** (off until you turn it on, on each device). The sky behind
 the next prayer and in the widgets is worked out on the device from the prayer

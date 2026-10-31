@@ -140,11 +140,14 @@ görürler.
 | **GitHub** | Çevrimiçi kütüphaneden bir ezan eklediğinizde; ve GitHub'dan indirilen Mac sürümünde güncellemeleri denetlerken (6 saatte bir, Sparkle güncelleyicisiyle) | Ezan dosyası (bu projenin GitHub sürümlerinden) veya güncelleme akışı için istekler |
 | **Caminizin web sitesi** (verdiğiniz bağlantı) veya **islamic.app** (api.islamic.app) | Yalnızca *Kamet vakitleri caminizden* açıkken (Ayarlar → Kamet): bağlantıyı kaydettiğinizde, *Şimdi yenile*'ye dokunduğunuzda ve haftada bir | O bağlantıdaki (veya islamic.app'teki o caminin) kamet çizelgesi için bir istek; yanında hiçbir şey gönderilmez |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Yalnızca *Google Drive ile eşitle* açıkken: oturum açtığınızda ve her eşitlemede | Google'ın kendi sayfasında oturum açmanız ve yukarıda anlatılan eşitleme dosyası, kendi Drive'ınıza ve oradan |
+| **Ülkenizin din işleri kurumu** (dinhizmetleri.diyanet.gov.tr ve e-Devlet'teki kopyası www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Yalnızca *Haftanın hutbesi* açıkken (iPhone, iPad ve Android): ekranını açtığınızda (en çok saatte bir) ve perşembe ile cuma, haftanın hutbesi gelene kadar | Kurumun hutbe listesi için bir istek, açtığınız ya da indirdiğiniz PDF veya ses kaydı için istekler |
+| **YouTube** (www.youtube.com) | Türkiye'nin (Diyanet'in) hutbe listesiyle, aynı zamanlarda | Haftanın hutbe videosunu bulmak için Salah Bar'ın kendi YouTube kanalının herkese açık akışı için bir istek; hesap, anahtar ya da çerez yok |
+| **YouTube oynatıcısı** (www.youtube-nocookie.com) | Yalnızca bir haftanın hutbesinde *İzle*'ye dokunduğunuzda | Video, uygulamanın içinde YouTube'un gelişmiş gizlilik oynatıcısında oynatılır; Salah Bar sizinle ilgili hiçbir şey göndermez, oynatıcıya [Google'ın gizlilik politikası](https://policies.google.com/privacy) uygulanır |
 
 Başka hiçbir yere bağlanılmaz. Tanzil.net (Kuran metni) ile Aladhan ve
 Diyanet (uygulamanın testlerinde kullanılan namaz vakti tabloları) uygulamada
 anılır, ancak uygulama onlara asla bağlanmaz: Kuran metni uygulamanın içinde
-gelir ve namaz vakitleri indirilmez, cihazınızda hesaplanır.
+gelir ve namaz vakitleri indirilmez, cihazınızda hesaplanır. Tek istisna Diyanet'in cuma hutbeleri listesidir (yukarıdaki *Haftanın hutbesi*).
 
 **Salah Bar'ı Destekle**'ye basmak tarayıcınızda Buy Me a Coffee veya GitHub
 Sponsors'ı açar; Android için Salah Bar bağlantısı ise Google Play'i açar.

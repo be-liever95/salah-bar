@@ -148,12 +148,15 @@ permintaan web, ia melihat alamat IP peranti anda.
 | **GitHub** | Apabila anda menambah azan daripada pustaka dalam talian; dan, dalam versi Mac yang dimuat turun daripada GitHub, apabila ia menyemak kemas kini (setiap 6 jam, dengan pengemas kini Sparkle) | Permintaan untuk fail azan (daripada keluaran GitHub projek ini), atau untuk suapan (feed) kemas kini |
 | **Laman web masjid anda** (pautan yang anda berikan) atau **islamic.app** (api.islamic.app) | Hanya apabila *Waktu iqamah dari masjid anda* dihidupkan (Seting → Iqamah): apabila anda menyimpan pautan, apabila anda mengetik *Muat semula sekarang*, dan seminggu sekali | Permintaan jadual iqamah pada pautan itu (atau masjid itu di islamic.app); tiada apa-apa lagi dihantar |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Hanya apabila *Segerakkan dengan Google Drive* dihidupkan: semasa anda log masuk, dan pada setiap penyegerakan | Log masuk anda, pada halaman Google sendiri, dan fail segerak yang diterangkan di atas, ke dan dari Drive anda sendiri |
+| **Badan agama negara anda** (dinhizmetleri.diyanet.gov.tr berserta salinannya di e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Hanya apabila *Khutbah minggu ini* dihidupkan (iPhone, iPad dan Android): apabila anda membuka skrinnya (paling kerap sejam sekali), dan pada hari Khamis dan Jumaat sehingga khutbah minggu itu diterbitkan | Permintaan senarai khutbah badan itu, serta PDF atau rakaman yang anda buka atau muat turun |
+| **YouTube** (www.youtube.com) | Bersama senarai khutbah Turkiye (Diyanet), pada masa yang sama | Permintaan suapan awam saluran YouTube milik Salah Bar sendiri, untuk mencari video khutbah minggu itu; tiada akaun, kunci atau kuki |
+| **Pemain YouTube** (www.youtube-nocookie.com) | Hanya apabila anda mengetik *Tonton* pada khutbah sesuatu minggu | Video dimainkan dalam pemain YouTube dengan privasi dipertingkat di dalam aplikasi; Salah Bar tidak menghantar apa-apa tentang anda, dan [dasar privasi Google](https://policies.google.com/privacy) terpakai pada pemain itu |
 
 Tiada yang lain dihubungi. Tanzil.net (teks Al-Quran), Aladhan dan Diyanet
 (jadual waktu solat yang digunakan dalam ujian aplikasi) diberi kredit dalam
 aplikasi, tetapi aplikasi tidak pernah menyambung kepadanya: teks Al-Quran
 disertakan di dalam aplikasi, dan waktu solat dikira di peranti anda, bukan
-dimuat turun.
+dimuat turun. Satu-satunya pengecualian ialah senarai khutbah Jumaat Diyanet (*Khutbah minggu ini*, di atas).
 
 Menekan **Sokong Salah Bar** membuka Buy Me a Coffee atau GitHub Sponsors
 dalam pelayar anda, dan pautan ke Salah Bar untuk Android membuka Google Play.

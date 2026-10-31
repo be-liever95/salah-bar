@@ -157,12 +157,15 @@ IP de votre appareil.
 | **GitHub** | Quand vous ajoutez un adhan depuis la bibliothèque en ligne ; et, dans la version Mac téléchargée depuis GitHub, quand elle recherche des mises à jour (toutes les 6 heures, avec le système de mise à jour Sparkle) | Des requêtes pour le fichier d’adhan (depuis les releases GitHub de ce projet), ou pour le flux de mises à jour |
 | **Le site de votre mosquée** (le lien que vous donnez) ou **islamic.app** (api.islamic.app) | Seulement avec *Horaires d'iqama de votre mosquée* activé (Réglages → Iqama) : quand vous enregistrez le lien, quand vous touchez *Actualiser maintenant*, et une fois par semaine | Une requête pour les horaires d'iqama à ce lien (ou de cette mosquée sur islamic.app) ; rien d'autre n'est envoyé |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Seulement avec *Synchroniser avec Google Drive* activé : quand vous vous connectez, et à chaque synchronisation | Votre connexion, sur la page de Google elle-même, et le fichier de synchronisation décrit plus haut, vers et depuis votre propre Drive |
+| **L’autorité religieuse de votre pays** (dinhizmetleri.diyanet.gov.tr et sa copie sur e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Seulement avec *Le sermon de la semaine* activé (iPhone, iPad et Android) : à l’ouverture de son écran (au plus une fois par heure), et le jeudi et le vendredi jusqu’à la parution du sermon de la semaine | Une requête pour la liste des sermons de l’autorité, et pour le PDF ou l’enregistrement que vous ouvrez ou téléchargez |
+| **YouTube** (www.youtube.com) | Avec la liste des sermons de Turquie (Diyanet), aux mêmes moments | Une requête pour le flux public de la chaîne YouTube de Salah Bar, afin de trouver la vidéo du sermon de la semaine ; sans compte, clé ni cookies |
+| **Le lecteur de YouTube** (www.youtube-nocookie.com) | Seulement quand vous touchez *Regarder* sur le sermon d’une semaine | La vidéo est lue dans le lecteur à confidentialité renforcée de YouTube, dans l’app ; Salah Bar n’envoie rien sur vous, et la [politique de confidentialité de Google](https://policies.google.com/privacy) s’applique au lecteur |
 
 Rien d’autre n’est contacté. Tanzil.net (le texte du Coran), Aladhan et
 Diyanet (tables d’horaires de prière utilisées dans les tests de l’app) sont
 crédités dans l’app, mais l’app ne s’y connecte jamais : le texte du Coran est
 livré dans l’app, et les horaires de prière sont calculés sur votre appareil,
-pas téléchargés.
+pas téléchargés. La seule exception est la liste des sermons du vendredi de la Diyanet (*Le sermon de la semaine*, ci-dessus).
 
 Appuyer sur **Soutenir Salah Bar** ouvre Buy Me a Coffee ou GitHub Sponsors
 dans votre navigateur, et le lien vers Salah Bar pour Android ouvre Google

@@ -158,12 +158,15 @@ IP-Adresse deines Geräts.
 | **GitHub** | Wenn du einen Adhan aus der Online-Bibliothek hinzufügst; und, in der von GitHub heruntergeladenen Mac-Version, wenn sie nach Updates sucht (alle 6 Stunden, mit dem Sparkle-Updater) | Anfragen für die Adhan-Datei (aus den GitHub-Releases dieses Projekts) oder für den Update-Feed |
 | **Die Website deiner Moschee** (der Link, den du angibst) oder **islamic.app** (api.islamic.app) | Nur wenn *Iqama-Zeiten deiner Moschee* an ist (Einstellungen → Iqama): wenn du den Link sicherst, wenn du auf *Jetzt aktualisieren* tippst, und einmal pro Woche | Eine Anfrage nach dem Iqama-Zeitplan unter diesem Link (oder dieser Moschee auf islamic.app); sonst wird nichts mitgesendet |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Nur wenn *Mit Google Drive synchronisieren* an ist: bei der Anmeldung und bei jeder Synchronisierung | Deine Anmeldung, auf Googles eigener Seite, und die oben beschriebene Sync-Datei, in dein eigenes Drive und aus ihm |
+| **Die Religionsbehörde Ihres Landes** (dinhizmetleri.diyanet.gov.tr mit der Kopie bei e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Nur mit eingeschalteter *Predigt der Woche* (iPhone, iPad und Android): wenn Sie ihren Bildschirm öffnen (höchstens einmal pro Stunde) und donnerstags und freitags, bis die Predigt der Woche erschienen ist | Eine Anfrage nach der Predigtliste der Behörde und nach dem PDF oder der Aufnahme, die Sie öffnen oder laden |
+| **YouTube** (www.youtube.com) | Mit der Predigtliste der Türkei (Diyanet), zu denselben Zeiten | Eine Anfrage nach dem öffentlichen Feed von Salah Bars eigenem YouTube-Kanal, um das Video der Predigt der Woche zu finden; kein Konto, kein Schlüssel, keine Cookies |
+| **Der YouTube-Player** (www.youtube-nocookie.com) | Nur wenn Sie bei einer Wochenpredigt auf *Ansehen* tippen | Das Video läuft im Player von YouTube mit erweitertem Datenschutz in der App; Salah Bar sendet nichts über Sie, und für den Player gilt die [Datenschutzerklärung von Google](https://policies.google.com/privacy) |
 
 Sonst wird nichts kontaktiert. Tanzil.net (der Korantext), Aladhan und Diyanet
 (Gebetszeitentabellen, die in den Tests der App verwendet werden) werden in
 der App genannt, aber die App verbindet sich nie mit ihnen: Der Korantext ist
 in der App enthalten, und die Gebetszeiten werden auf deinem Gerät berechnet,
-nicht heruntergeladen.
+nicht heruntergeladen. Die einzige Ausnahme ist Diyanets Liste der Freitagspredigten (*Predigt der Woche*, oben).
 
 Ein Druck auf **Salah Bar unterstützen** öffnet Buy Me a Coffee oder GitHub
 Sponsors in deinem Browser, und der Link zu Salah Bar für Android öffnet

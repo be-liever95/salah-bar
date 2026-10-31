@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.38.0</title>
+      <pubDate>Sat, 31 Oct 2026 23:32:05 +0300</pubDate>
+      <sparkle:version>645</sparkle:version>
+      <sparkle:shortVersionString>2.38.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🔔 All notifications in one place: each prayer's adhan, the reminders before prayer time and every other reminder are now in Settings → Notifications, which opens first.</li><li>🗂️ A clearer Settings order with an icon for each page, a Prayer Log page, and search that also finds a setting by its old name.</li><li>🕌 A More menu in the panel gathers Nearby mosques, the timetable, tasbih, the 99 Names, zakat and more, in the same order as on the phone.</li><li>📖 This week's khutbah opens inside the app for Türkiye. ✨ What's new lists it all after the update.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.38.0/Salah-Bar-2.38.0.dmg" sparkle:edSignature="kYkTjUiFrPvE9iLO5dbb/r5XzsYWoWVxU9C83FkhLAbezjzjbAFa50AKIP0jStWG9RRc6Nn2WvwKxGXAnFGmBw==" length="70453725" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.37.0</title>
       <pubDate>Sat, 31 Oct 2026 10:41:44 +0300</pubDate>
       <sparkle:version>613</sparkle:version>
