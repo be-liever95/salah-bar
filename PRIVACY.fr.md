@@ -1,6 +1,6 @@
 # Politique de confidentialité de Salah Bar
 
-*Dernière mise à jour : 28 octobre 2026*
+*Dernière mise à jour : 30 octobre 2026*
 
 **En bref : Salah Bar ne collecte rien.** Pas de compte, pas d’analyse
 d’audience, pas de publicité et pas de pistage. Vos réglages, votre position et
@@ -110,6 +110,31 @@ iPad et Apple Watch (la même app, bientôt sur l’App Store).
   lit et n’écrit que ce seul fichier. Où il va ne regarde que vous et le
   service que vous avez choisi, selon la politique de confidentialité de ce
   service ; le développeur ne le voit jamais.
+- **Google Drive** (toutes les versions, désactivé tant que vous ne l’activez
+  pas). *Réglages → Synchronisation → Synchroniser avec Google Drive* vous
+  permet de vous connecter avec Google au lieu de choisir un fichier. Salah Bar
+  demande alors à Google une seule autorisation : conserver son propre fichier
+  dans le dossier d’application caché de votre Google Drive (le champ d’accès
+  `drive.appdata`) ; il ne peut ni voir, ni ouvrir, ni modifier aucun de vos
+  autres fichiers dans Drive. Il y conserve le même fichier de synchronisation,
+  « Salah Bar sync.json », envoyé directement de votre appareil vers votre
+  propre Drive en HTTPS ; aucun serveur de Salah Bar n’est entre les deux, et le
+  développeur ne voit jamais ni le fichier ni votre compte. Le jeton de
+  connexion est conservé dans le trousseau de votre Mac ou de votre iPhone, sur
+  cet appareil seulement ; Salah Bar conserve aussi l’adresse e-mail de votre
+  compte, pour l’afficher. La [politique de confidentialité de
+  Google](https://policies.google.com/privacy) s’applique à votre compte Google
+  et à Drive. *Se déconnecter* retire du fichier les données de cet appareil et
+  arrête la synchronisation ici ; *Supprimer mes données de Drive* supprime le
+  fichier (avec les données de chaque appareil qu’il contient) et retire l’accès
+  de Salah Bar. Vous pouvez aussi retirer l’accès depuis votre compte Google
+  (Sécurité → Applications tierces) et supprimer les données cachées dans Drive
+  → Paramètres → Gérer les applications. L’utilisation par Salah Bar des
+  informations reçues des API Google respecte la [Google API Services User Data
+  Policy](https://developers.google.com/terms/api-services-user-data-policy), y
+  compris les exigences d’utilisation limitée : il ne lit et n’écrit que son
+  propre fichier de synchronisation dans votre Drive, pour synchroniser vos
+  appareils, et ne l’utilise jamais à autre chose ni ne le transmet à quiconque.
 
 ## Ce qui passe par internet
 
@@ -122,6 +147,7 @@ IP de votre appareil.
 |---|---|---|
 | **Apple** (services de localisation) | Quand votre position change | Vos coordonnées, pour les transformer en nom de lieu tel que « Manisa, TR » (la [politique de confidentialité d’Apple](https://www.apple.com/legal/privacy/) s’applique) |
 | **Plans d’Apple** | Quand vous recherchez une ville dans les Réglages, et quand vous ouvrez *Mosquées à proximité* à côté de la qibla | Le texte que vous saisissez, ou votre position, pour trouver la ville ou les mosquées autour (la politique de confidentialité d’Apple s’applique) |
+| **Open-Meteo** (api.open-meteo.com) | Seulement avec *Afficher la météo* activé (Réglages → Apparence) : quand vous l’activez, puis au plus toutes les 30 minutes tant que l’app est ouverte | Votre position arrondie à 0,1° (environ 10 km), pour obtenir la météo actuelle à cet endroit ; rien d’autre n’est envoyé avec |
 | **mp3quran.net** | Seulement quand vous utilisez le lecteur du Coran, le Mushaf ou le mode Hifz | Des requêtes pour la liste des récitateurs (au plus une fois par semaine), pour les sourates que vous écoutez ou téléchargez, et pour les minutages des versets qui surlignent le verset en cours de récitation |
 | **EveryAyah.com** | Seulement en mode Hifz, pour les récitateurs dont mp3quran.net n’a pas les minutages des versets | Des requêtes pour les versets que vous répétez, un fichier par verset |
 | **Quran for Android** (android.quran.com, files.quran.app) | Seulement quand vous choisissez une traduction ou un tafsir dans le Mushaf, ou un style de page imprimée (Madani, Shamarly, IndoPak) | Des requêtes pour le fichier de cette traduction ou pour ces images de pages, téléchargés une seule fois |
@@ -130,6 +156,7 @@ IP de votre appareil.
 | **Wikimedia Commons** (upload.wikimedia.org) | Seulement quand vous écoutez un nom des 99 noms (ou une carte du nom du jour) ou téléchargez les noms pour l’écoute hors ligne | Des requêtes pour les enregistrements écoutés ou téléchargés |
 | **GitHub** | Quand vous ajoutez un adhan depuis la bibliothèque en ligne ; et, dans la version Mac téléchargée depuis GitHub, quand elle recherche des mises à jour (toutes les 6 heures, avec le système de mise à jour Sparkle) | Des requêtes pour le fichier d’adhan (depuis les releases GitHub de ce projet), ou pour le flux de mises à jour |
 | **Le site de votre mosquée** (le lien que vous donnez) ou **islamic.app** (api.islamic.app) | Seulement avec *Horaires d'iqama de votre mosquée* activé (Réglages → Iqama) : quand vous enregistrez le lien, quand vous touchez *Actualiser maintenant*, et une fois par semaine | Une requête pour les horaires d'iqama à ce lien (ou de cette mosquée sur islamic.app) ; rien d'autre n'est envoyé |
+| **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Seulement avec *Synchroniser avec Google Drive* activé : quand vous vous connectez, et à chaque synchronisation | Votre connexion, sur la page de Google elle-même, et le fichier de synchronisation décrit plus haut, vers et depuis votre propre Drive |
 
 Rien d’autre n’est contacté. Tanzil.net (le texte du Coran), Aladhan et
 Diyanet (tables d’horaires de prière utilisées dans les tests de l’app) sont
@@ -141,6 +168,8 @@ Appuyer sur **Soutenir Salah Bar** ouvre Buy Me a Coffee ou GitHub Sponsors
 dans votre navigateur, et le lien vers Salah Bar pour Android ouvre Google
 Play. Ce que vous y faites relève de leurs politiques de confidentialité ;
 Salah Bar lui-même n’envoie rien.
+
+**La météo** (désactivée tant que vous ne l’activez pas, sur chaque appareil). Le ciel derrière la prochaine prière et dans les widgets est calculé sur l’appareil à partir des heures de prière. Si vous activez *Afficher la météo* (Réglages → Apparence), Salah Bar dit d’abord ce qu’il enverra, puis demande à Open-Meteo (open-meteo.com) la météo actuelle à votre position arrondie à 0,1° (environ 10 km), au plus toutes les 30 minutes tant que l’app est ouverte (sur le Mac, tant qu’elle tourne), sans compte, clé, cookie ni identifiant. La réponse (nuages, pluie, neige…) reste sur l’appareil et est partagée avec ses widgets. Désactiver l’option arrête les requêtes et efface la dernière réponse. Les conditions et la politique de confidentialité d’Open-Meteo s’appliquent à la requête ; ses données météo sont sous licence CC BY 4.0. Pour l’App Store, c’est une Localisation approximative, non liée à vous, non utilisée pour le suivi, pour les Fonctionnalités de l’app, et seulement tant que l’option est activée.
 
 ## Étiquettes de confidentialité de l’App Store
 

@@ -1,6 +1,6 @@
 # Datenschutzerklärung von Salah Bar
 
-*Zuletzt aktualisiert: 28. Oktober 2026*
+*Zuletzt aktualisiert: 30. Oktober 2026*
 
 **Kurz gesagt: Salah Bar sammelt nichts.** Keine Konten, keine Analysen, keine
 Werbung und kein Tracking. Deine Einstellungen, dein Standort und dein
@@ -111,6 +111,31 @@ iPad und Apple Watch (dieselbe App, demnächst im App Store).
   eine Datei. Wohin sie geht, ist eine Sache zwischen dir und dem Laufwerk,
   das du gewählt hast, nach der Datenschutzerklärung dieses Dienstes; der
   Entwickler sieht sie nie.
+- **Google Drive** (jede Version, aus, bis du es einschaltest). *Einstellungen →
+  Synchronisierung → Mit Google Drive synchronisieren* lässt dich dich mit
+  Google anmelden, statt eine Datei zu wählen. Salah Bar bittet Google dann um
+  eine einzige Berechtigung: seine eigene Datei im versteckten App-Ordner deines
+  Google Drive zu halten (der Bereich `drive.appdata`); es kann keine deiner
+  anderen Dateien in Drive sehen, öffnen oder ändern. Dort hält es dieselbe
+  Sync-Datei, „Salah Bar sync.json“, und schickt sie über HTTPS direkt von
+  deinem Gerät in dein eigenes Drive; dazwischen gibt es keinen Server von Salah
+  Bar, und der Entwickler sieht weder die Datei noch dein Konto. Das
+  Anmelde-Token liegt im Schlüsselbund deines Mac oder iPhone, nur auf diesem
+  Gerät; Salah Bar speichert außerdem die E-Mail-Adresse deines Kontos, um sie
+  anzuzeigen. Für dein Google-Konto und Drive gilt die [Datenschutzerklärung von
+  Google](https://policies.google.com/privacy). *Abmelden* nimmt die Daten
+  dieses Geräts aus der Datei und beendet hier die Synchronisierung; *Meine
+  Daten aus Drive entfernen* löscht die Datei (mit den Daten aller Geräte darin)
+  und entzieht Salah Bar den Zugriff. Du kannst den Zugriff auch in deinem
+  Google-Konto entfernen (Sicherheit → Drittanbieter-Apps) und die versteckten
+  Daten unter Drive → Einstellungen → Apps verwalten löschen. Die Nutzung von
+  Informationen, die Salah Bar von Google-APIs erhält, entspricht der [Google
+  API Services User Data
+  Policy](https://developers.google.com/terms/api-services-user-data-policy),
+  einschließlich der Anforderungen zur eingeschränkten Nutzung: Es liest und
+  schreibt in deinem Drive nur seine eigene Sync-Datei, um deine Geräte zu
+  synchronisieren, und nutzt sie nie für etwas anderes oder gibt sie an jemanden
+  weiter.
 
 ## Was über das Internet geht
 
@@ -123,6 +148,7 @@ IP-Adresse deines Geräts.
 |---|---|---|
 | **Apple** (Ortungsdienste) | Wenn sich dein Standort ändert | Deine Koordinaten, um sie in einen Ortsnamen wie „Manisa, TR“ zu verwandeln (es gilt [Apples Datenschutzerklärung](https://www.apple.com/legal/privacy/)) |
 | **Apple Karten** | Wenn du in den Einstellungen eine Stadt suchst und wenn du neben der Qibla *Moscheen in der Nähe* öffnest | Den Text, den du eingibst, oder deinen Standort, um die Stadt oder die Moscheen in der Umgebung zu finden (es gilt Apples Datenschutzerklärung) |
+| **Open-Meteo** (api.open-meteo.com) | Nur mit eingeschaltetem *Wetter anzeigen* (Einstellungen → Erscheinungsbild): beim Einschalten, dann höchstens alle 30 Minuten, solange die App geöffnet ist | Dein Standort, auf 0,1° (etwa 10 km) gerundet, um das aktuelle Wetter dort abzufragen; sonst wird nichts mitgesendet |
 | **mp3quran.net** | Nur wenn du den Koran-Player, den Mushaf oder den Hifz-Modus verwendest | Anfragen für die Rezitatorenliste (höchstens einmal pro Woche), für die Suren, die du abspielst oder herunterlädst, und für die Ayah-Zeitmarken, die die gerade rezitierte Ayah hervorheben |
 | **EveryAyah.com** | Nur im Hifz-Modus, für Rezitatoren, für die mp3quran.net keine Ayah-Zeitmarken hat | Anfragen für die Ayat, die du wiederholst, eine Datei pro Ayah |
 | **Quran for Android** (android.quran.com, files.quran.app) | Nur wenn du im Mushaf eine Übersetzung oder einen Tafsir wählst oder einen gedruckten Seitenstil (Madani, Shamarly, IndoPak) | Anfragen für die Datei dieser Übersetzung oder für diese Seitenbilder, einmal heruntergeladen |
@@ -131,6 +157,7 @@ IP-Adresse deines Geräts.
 | **Wikimedia Commons** (upload.wikimedia.org) | Nur wenn du einen Namen unter den 99 Namen (oder eine Karte mit dem Namen des Tages) abspielst oder die Namen für offline lädst | Anfragen für die Aufnahmen, die du abspielst oder lädst |
 | **GitHub** | Wenn du einen Adhan aus der Online-Bibliothek hinzufügst; und, in der von GitHub heruntergeladenen Mac-Version, wenn sie nach Updates sucht (alle 6 Stunden, mit dem Sparkle-Updater) | Anfragen für die Adhan-Datei (aus den GitHub-Releases dieses Projekts) oder für den Update-Feed |
 | **Die Website deiner Moschee** (der Link, den du angibst) oder **islamic.app** (api.islamic.app) | Nur wenn *Iqama-Zeiten deiner Moschee* an ist (Einstellungen → Iqama): wenn du den Link sicherst, wenn du auf *Jetzt aktualisieren* tippst, und einmal pro Woche | Eine Anfrage nach dem Iqama-Zeitplan unter diesem Link (oder dieser Moschee auf islamic.app); sonst wird nichts mitgesendet |
+| **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Nur wenn *Mit Google Drive synchronisieren* an ist: bei der Anmeldung und bei jeder Synchronisierung | Deine Anmeldung, auf Googles eigener Seite, und die oben beschriebene Sync-Datei, in dein eigenes Drive und aus ihm |
 
 Sonst wird nichts kontaktiert. Tanzil.net (der Korantext), Aladhan und Diyanet
 (Gebetszeitentabellen, die in den Tests der App verwendet werden) werden in
@@ -142,6 +169,8 @@ Ein Druck auf **Salah Bar unterstützen** öffnet Buy Me a Coffee oder GitHub
 Sponsors in deinem Browser, und der Link zu Salah Bar für Android öffnet
 Google Play. Was du dort tust, fällt unter deren Datenschutzerklärungen; Salah
 Bar selbst sendet nichts.
+
+**Das Wetter** (aus, bis du es einschaltest, auf jedem Gerät einzeln). Der Himmel hinter dem nächsten Gebet und in den Widgets wird auf dem Gerät aus den Gebetszeiten berechnet. Wenn du *Wetter anzeigen* (Einstellungen → Erscheinungsbild) einschaltest, sagt Salah Bar zuerst, was es senden wird, und fragt dann bei Open-Meteo (open-meteo.com) das aktuelle Wetter für deinen auf 0,1° (etwa 10 km) gerundeten Standort ab, höchstens alle 30 Minuten, solange die App geöffnet ist (auf dem Mac, solange sie läuft), ohne Konto, Schlüssel, Cookie oder Kennung. Die Antwort (Wolken, Regen, Schnee …) bleibt auf dem Gerät und wird mit seinen Widgets geteilt. Das Ausschalten beendet die Anfragen und löscht die letzte Antwort. Für die Anfrage gelten die Bedingungen und die Datenschutzerklärung von Open-Meteo; seine Wetterdaten stehen unter CC BY 4.0. Im App Store wird das als ungefährer Standort angegeben, nicht mit dir verknüpft, nicht zum Tracking, für App-Funktionalität, und nur solange der Schalter an ist.
 
 ## Datenschutz-Labels im App Store
 

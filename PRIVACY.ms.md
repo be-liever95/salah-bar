@@ -1,6 +1,6 @@
 # Dasar Privasi Salah Bar
 
-*Kemas kini terakhir: 28 Oktober 2026*
+*Kemas kini terakhir: 30 Oktober 2026*
 
 **Ringkasnya: Salah Bar tidak mengumpul apa-apa.** Tiada akaun, tiada
 analitik, tiada iklan dan tiada penjejakan. Tetapan anda, lokasi anda dan log
@@ -101,6 +101,31 @@ Apple Watch (aplikasi yang sama, akan tiba di App Store).
   kitaran. Salah Bar hanya membaca dan menulis fail yang satu itu. Ke mana
   fail itu pergi adalah antara anda dan pemacu yang anda pilih, di bawah dasar
   privasi perkhidmatan itu; pembangun tidak pernah melihatnya.
+- **Google Drive** (setiap versi, dimatikan sehingga anda menghidupkannya).
+  *Tetapan → Segerak → Segerakkan dengan Google Drive* membolehkan anda log
+  masuk dengan Google dan bukannya memilih fail. Salah Bar kemudian meminta satu
+  kebenaran sahaja daripada Google, iaitu untuk menyimpan failnya sendiri dalam
+  folder aplikasi tersembunyi Google Drive anda (skop `drive.appdata`): ia tidak
+  dapat melihat, membuka atau mengubah mana-mana fail anda yang lain dalam
+  Drive. Di situ ia menyimpan fail segerak yang sama, "Salah Bar sync.json", dan
+  menghantarnya terus dari peranti anda ke Drive anda sendiri melalui HTTPS;
+  tiada pelayan Salah Bar di antaranya, dan pembangun tidak pernah melihat fail
+  itu atau akaun anda. Token log masuk disimpan dalam Rantai Kunci Mac atau
+  iPhone anda, pada peranti itu sahaja; Salah Bar juga menyimpan alamat e-mel
+  akaun anda untuk memaparkannya. [Dasar privasi
+  Google](https://policies.google.com/privacy) terpakai pada akaun Google dan
+  Drive anda. *Log Keluar* mengeluarkan data peranti ini daripada fail dan
+  menghentikan penyegerakan di sini; *Buang Data Saya daripada Drive* memadam
+  fail itu (bersama data setiap peranti di dalamnya) dan menarik balik akses
+  Salah Bar. Anda juga boleh membuang akses daripada Akaun Google anda
+  (Keselamatan → Apl pihak ketiga) dan memadam data tersembunyinya dalam Drive →
+  Tetapan → Urus apl. Penggunaan maklumat yang diterima Salah Bar daripada API
+  Google mematuhi [Google API Services User Data
+  Policy](https://developers.google.com/terms/api-services-user-data-policy),
+  termasuk keperluan Penggunaan Terhad: ia hanya membaca dan menulis fail
+  segeraknya sendiri dalam Drive anda, untuk menyegerakkan peranti anda, dan
+  tidak pernah menggunakannya untuk perkara lain atau memberikannya kepada
+  sesiapa.
 
 ## Yang melalui internet
 
@@ -113,6 +138,7 @@ permintaan web, ia melihat alamat IP peranti anda.
 |---|---|---|
 | **Apple** (perkhidmatan lokasi) | Apabila lokasi anda berubah | Koordinat anda, untuk ditukar kepada nama tempat seperti "Manisa, TR" ([dasar privasi Apple](https://www.apple.com/legal/privacy/) terpakai) |
 | **Apple Maps** | Apabila anda mencari bandar dalam Tetapan, dan apabila anda membuka *Masjid berdekatan* di sebelah Kiblat | Teks yang anda taip, atau lokasi anda, untuk mencari bandar itu atau masjid di sekitarnya (dasar privasi Apple terpakai) |
+| **Open-Meteo** (api.open-meteo.com) | Hanya apabila *Tunjukkan cuaca* dihidupkan (Tetapan → Penampilan): apabila anda menghidupkannya, kemudian paling kerap setiap 30 minit semasa aplikasi dibuka | Lokasi anda yang dibundarkan kepada 0.1° (kira-kira 10 km), untuk mendapatkan cuaca semasa di situ; tiada apa-apa lagi dihantar bersamanya |
 | **mp3quran.net** | Hanya apabila anda menggunakan pemain Al-Quran, Mushaf atau mod Hifz | Permintaan untuk senarai qari (paling banyak sekali seminggu), untuk surah yang anda mainkan atau muat turun, dan untuk masa ayat yang menyerlahkan ayat yang sedang dibaca |
 | **EveryAyah.com** | Hanya dalam mod Hifz, untuk qari yang mp3quran.net tiada masa ayatnya | Permintaan untuk ayat yang anda ulang, satu fail bagi setiap ayat |
 | **Quran for Android** (android.quran.com, files.quran.app) | Hanya apabila anda memilih terjemahan atau tafsir dalam Mushaf, atau gaya halaman cetak (Madani, Shamarly, IndoPak) | Permintaan untuk fail terjemahan itu atau imej halaman itu, dimuat turun sekali |
@@ -121,6 +147,7 @@ permintaan web, ia melihat alamat IP peranti anda.
 | **Wikimedia Commons** (upload.wikimedia.org) | Hanya apabila anda memainkan nama daripada Asmaul Husna (atau kad nama hari ini) atau memuat turun nama-nama itu untuk luar talian | Permintaan untuk rakaman yang anda mainkan atau muat turun |
 | **GitHub** | Apabila anda menambah azan daripada pustaka dalam talian; dan, dalam versi Mac yang dimuat turun daripada GitHub, apabila ia menyemak kemas kini (setiap 6 jam, dengan pengemas kini Sparkle) | Permintaan untuk fail azan (daripada keluaran GitHub projek ini), atau untuk suapan (feed) kemas kini |
 | **Laman web masjid anda** (pautan yang anda berikan) atau **islamic.app** (api.islamic.app) | Hanya apabila *Waktu iqamah dari masjid anda* dihidupkan (Seting → Iqamah): apabila anda menyimpan pautan, apabila anda mengetik *Muat semula sekarang*, dan seminggu sekali | Permintaan jadual iqamah pada pautan itu (atau masjid itu di islamic.app); tiada apa-apa lagi dihantar |
+| **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Hanya apabila *Segerakkan dengan Google Drive* dihidupkan: semasa anda log masuk, dan pada setiap penyegerakan | Log masuk anda, pada halaman Google sendiri, dan fail segerak yang diterangkan di atas, ke dan dari Drive anda sendiri |
 
 Tiada yang lain dihubungi. Tanzil.net (teks Al-Quran), Aladhan dan Diyanet
 (jadual waktu solat yang digunakan dalam ujian aplikasi) diberi kredit dalam
@@ -132,6 +159,8 @@ Menekan **Sokong Salah Bar** membuka Buy Me a Coffee atau GitHub Sponsors
 dalam pelayar anda, dan pautan ke Salah Bar untuk Android membuka Google Play.
 Apa yang anda lakukan di sana tertakluk kepada dasar privasi mereka; Salah Bar
 sendiri tidak menghantar apa-apa.
+
+**Cuaca** (dimatikan sehingga anda menghidupkannya, pada setiap peranti). Langit di belakang solat seterusnya dan dalam widget dikira pada peranti daripada waktu solat. Jika anda menghidupkan *Tunjukkan cuaca* (Tetapan → Penampilan), Salah Bar terlebih dahulu memberitahu apa yang akan dihantar, kemudian meminta cuaca semasa daripada Open-Meteo (open-meteo.com) bagi lokasi anda yang dibundarkan kepada 0.1° (kira-kira 10 km), paling kerap setiap 30 minit semasa aplikasi dibuka (pada Mac, selagi ia berjalan), tanpa akaun, kunci, kuki atau pengecam. Jawapannya (awan, hujan, salji…) kekal pada peranti dan dikongsi dengan widgetnya. Mematikan suis menghentikan permintaan dan memadam jawapan terakhir. Terma dan dasar privasi Open-Meteo terpakai pada permintaan itu; data cuacanya berlesen CC BY 4.0. Di App Store ini diisytiharkan sebagai Lokasi Anggaran, tidak dipautkan kepada anda, tidak digunakan untuk penjejakan, untuk Fungsi Aplikasi, dan hanya selagi suis dihidupkan.
 
 ## Label privasi App Store
 

@@ -1,6 +1,6 @@
 # Kebijakan Privasi Salah Bar
 
-*Terakhir diperbarui: 28 Oktober 2026*
+*Terakhir diperbarui: 30 Oktober 2026*
 
 **Singkatnya: Salah Bar tidak mengumpulkan apa pun.** Tidak ada akun, tidak
 ada analitik, tidak ada iklan, dan tidak ada pelacakan. Pengaturan Anda, lokasi
@@ -106,6 +106,30 @@ dan Apple Watch (aplikasi yang sama, segera hadir di App Store).
   hanya membaca dan menulis satu file itu. Ke mana file itu pergi adalah
   urusan antara Anda dan drive yang Anda pilih, berdasarkan kebijakan privasi
   layanan itu; pengembang tidak pernah melihatnya.
+- **Google Drive** (semua versi, nonaktif sampai Anda mengaktifkannya).
+  *Pengaturan → Sinkronisasi → Sinkronkan dengan Google Drive* memungkinkan Anda
+  masuk dengan Google alih-alih memilih file. Salah Bar lalu meminta satu izin
+  saja kepada Google, yaitu menyimpan file miliknya sendiri di folder aplikasi
+  tersembunyi Google Drive Anda (cakupan `drive.appdata`): ia tidak dapat
+  melihat, membuka, atau mengubah file Anda yang lain di Drive. Di sana ia
+  menyimpan file sinkronisasi yang sama, "Salah Bar sync.json", dan
+  mengirimkannya langsung dari perangkat Anda ke Drive Anda sendiri melalui
+  HTTPS; tidak ada server Salah Bar di antaranya, dan pengembang tidak pernah
+  melihat file itu maupun akun Anda. Token masuk disimpan di Keychain Mac atau
+  iPhone Anda, hanya di perangkat itu; Salah Bar juga menyimpan alamat email
+  akun Anda untuk menampilkannya. [Kebijakan privasi
+  Google](https://policies.google.com/privacy) berlaku untuk akun Google dan
+  Drive Anda. *Keluar* mengeluarkan data perangkat ini dari file dan
+  menghentikan sinkronisasi di sini; *Hapus Data Saya dari Drive* menghapus file
+  itu (beserta data setiap perangkat di dalamnya) dan mencabut akses Salah Bar.
+  Anda juga dapat mencabut akses dari Akun Google Anda (Keamanan → Aplikasi
+  pihak ketiga) dan menghapus data tersembunyinya di Drive → Setelan → Kelola
+  aplikasi. Penggunaan informasi yang diterima Salah Bar dari Google API
+  mematuhi [Google API Services User Data
+  Policy](https://developers.google.com/terms/api-services-user-data-policy),
+  termasuk persyaratan Penggunaan Terbatas: ia hanya membaca dan menulis file
+  sinkronisasinya sendiri di Drive Anda, untuk menyinkronkan perangkat Anda, dan
+  tidak pernah memakainya untuk hal lain atau memberikannya kepada siapa pun.
 
 ## Yang lewat internet
 
@@ -118,6 +142,7 @@ mereka melihat alamat IP perangkat Anda.
 |---|---|---|
 | **Apple** (layanan lokasi) | Saat lokasi Anda berubah | Koordinat Anda, untuk diubah menjadi nama tempat seperti "Manisa, TR" ([kebijakan privasi Apple](https://www.apple.com/legal/privacy/) berlaku) |
 | **Apple Maps** | Saat Anda mencari kota di Pengaturan, dan saat Anda membuka *Masjid terdekat* di samping Kiblat | Teks yang Anda ketik, atau lokasi Anda, untuk menemukan kota itu atau masjid di sekitarnya (kebijakan privasi Apple berlaku) |
+| **Open-Meteo** (api.open-meteo.com) | Hanya jika *Tampilkan cuaca* aktif (Pengaturan → Tampilan): saat Anda mengaktifkannya, lalu paling sering setiap 30 menit selama aplikasi terbuka | Lokasi Anda yang dibulatkan ke 0,1° (sekitar 10 km), untuk mendapatkan cuaca saat ini di sana; tidak ada hal lain yang dikirim bersamanya |
 | **mp3quran.net** | Hanya saat Anda memakai pemutar Al-Qur'an, Mushaf, atau mode Hifz | Permintaan daftar qari (paling banyak sekali seminggu), surah yang Anda putar atau unduh, dan waktu ayat yang menyorot ayat yang sedang dibaca |
 | **EveryAyah.com** | Hanya dalam mode Hifz, untuk qari yang waktu ayatnya tidak dimiliki mp3quran.net | Permintaan ayat yang Anda ulang, satu file per ayat |
 | **Quran for Android** (android.quran.com, files.quran.app) | Hanya saat Anda memilih terjemahan atau tafsir di Mushaf, atau gaya halaman cetak (Madani, Shamarly, IndoPak) | Permintaan file terjemahan itu atau gambar halaman itu, diunduh sekali |
@@ -126,6 +151,7 @@ mereka melihat alamat IP perangkat Anda.
 | **Wikimedia Commons** (upload.wikimedia.org) | Hanya saat Anda memutar nama dari Asmaul Husna (atau kartu nama hari ini) atau mengunduh nama-nama itu untuk offline | Permintaan rekaman yang Anda putar atau unduh |
 | **GitHub** | Saat Anda menambahkan azan dari pustaka online; dan, pada versi Mac yang diunduh dari GitHub, saat memeriksa pembaruan (setiap 6 jam, dengan pembaru Sparkle) | Permintaan file azan (dari rilis GitHub proyek ini), atau umpan (feed) pembaruan |
 | **Situs web masjid Anda** (tautan yang Anda berikan) atau **islamic.app** (api.islamic.app) | Hanya saat *Waktu iqamah dari masjid Anda* aktif (Pengaturan → Iqamah): saat Anda menyimpan tautan, saat Anda mengetuk *Perbarui sekarang*, dan seminggu sekali | Permintaan jadwal iqamah di tautan itu (atau masjid itu di islamic.app); tidak ada hal lain yang dikirim |
+| **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Hanya saat *Sinkronkan dengan Google Drive* aktif: ketika Anda masuk, dan setiap kali sinkronisasi | Proses masuk Anda, di halaman Google sendiri, dan file sinkronisasi yang dijelaskan di atas, ke dan dari Drive Anda sendiri |
 
 Tidak ada yang lain yang dihubungi. Tanzil.net (teks Al-Qur'an), Aladhan, dan
 Diyanet (tabel waktu salat yang dipakai dalam pengujian aplikasi) disebutkan
@@ -137,6 +163,8 @@ Menekan **Dukung Salah Bar** membuka Buy Me a Coffee atau GitHub Sponsors di
 browser Anda, dan tautan ke Salah Bar untuk Android membuka Google Play. Yang
 Anda lakukan di sana tunduk pada kebijakan privasi mereka; Salah Bar sendiri
 tidak mengirim apa pun.
+
+**Cuaca** (mati sampai Anda menyalakannya, di setiap perangkat). Langit di balik salat berikutnya dan di widget dihitung di perangkat dari waktu salat. Jika Anda menyalakan *Tampilkan cuaca* (Pengaturan → Tampilan), Salah Bar terlebih dahulu memberi tahu apa yang akan dikirim, lalu meminta cuaca saat ini kepada Open-Meteo (open-meteo.com) untuk lokasi Anda yang dibulatkan ke 0,1° (sekitar 10 km), paling sering setiap 30 menit selama aplikasi terbuka (di Mac, selama berjalan), tanpa akun, kunci, cookie, atau pengenal. Jawabannya (awan, hujan, salju…) tetap di perangkat dan dibagikan ke widget-nya. Mematikan sakelar menghentikan permintaan dan menghapus jawaban terakhir. Ketentuan dan kebijakan privasi Open-Meteo berlaku untuk permintaan itu; data cuacanya berlisensi CC BY 4.0. Di App Store ini dinyatakan sebagai Lokasi Perkiraan, tidak terkait dengan Anda, tidak digunakan untuk pelacakan, untuk Fungsi Aplikasi, dan hanya selama sakelar menyala.
 
 ## Label privasi App Store
 

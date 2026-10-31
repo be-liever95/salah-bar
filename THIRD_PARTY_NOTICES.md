@@ -19,6 +19,14 @@ redistribution with the copyright notice and this disclaimer is permitted;
 it is provided "as is" without warranty, and neither Google's name nor its
 contributors' may be used to endorse products derived from it.
 
+## AppAuth (Sync with Google Drive)
+Signing in with Google for *Sync with Google Drive* (OAuth 2 with PKCE) uses
+[AppAuth for iOS and macOS](https://github.com/openid/AppAuth-iOS) 3.0.0,
+Copyright 2015 The AppAuth Authors and Google Inc., under the **Apache
+License 2.0** (https://www.apache.org/licenses/LICENSE-2.0): it may be used
+and redistributed with this notice, and is provided "as is", without
+warranties or conditions of any kind.
+
 ## Prayer-time calculation
 Since 2.8.0 Salah Bar computes the sun's position with its own code, written
 from the U.S. Naval Observatory's public-domain "Approximate Solar

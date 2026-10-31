@@ -1,10 +1,12 @@
 # Salah Bar Privacy Policy
 
-*Last updated: 28 October 2026*
+*Last updated: 30 October 2026*
 
 **In short: Salah Bar collects nothing.** There are no accounts, no analytics, no
 ads and no tracking. Your settings, your location and your prayer log stay on
-your own devices. The developer never receives any of your data.
+your own devices. The developer never receives any of your data. The one
+exception, off until you turn it on, is the weather: then your location,
+rounded to about 10 km, goes to Open-Meteo (see below).
 
 This policy covers Salah Bar for Mac, and Salah Bar for iPhone, iPad and
 Apple Watch (the same app, coming to the App Store).
@@ -89,17 +91,40 @@ English · [Türkçe](PRIVACY.tr.md) · [العربية](PRIVACY.ar.md) · [ار
   khatma log and, for sisters, the cycle log. Salah Bar only reads and writes
   that one file. Where it goes is between you and the drive you chose, under
   that service's privacy policy; the developer never sees it.
+- **Google Drive** (every version, off until you turn it on). *Settings → Sync →
+  Sync with Google Drive* lets you sign in with Google instead of choosing a
+  file. Salah Bar then asks Google for one permission only, to keep its own file
+  in your Google Drive's hidden app folder (the `drive.appdata` scope): it can't
+  see, open or change any of your other files in Drive. It keeps the same sync
+  file there, "Salah Bar sync.json", sending it straight from your device to
+  your own Drive over HTTPS; there is no Salah Bar server in between, and the
+  developer never sees the file or your account. The sign-in token is kept in
+  your Mac's or iPhone's Keychain, on that device only; Salah Bar also keeps
+  your account's email address, to show it. [Google's privacy
+  policy](https://policies.google.com/privacy) applies to your Google account
+  and Drive. *Sign Out* takes this device's data out of the file and stops
+  syncing here; *Remove My Data from Drive* deletes the file (every device's
+  data in it) and takes Salah Bar's access away. You can also remove the access
+  from your Google Account (Security → Third-party apps) and delete the hidden
+  data in Drive → Settings → Manage apps. Salah Bar's use of information
+  received from Google APIs adheres to the [Google API Services User Data
+  Policy](https://developers.google.com/terms/api-services-user-data-policy),
+  including the Limited Use requirements: it only reads and writes its own sync
+  file in your Drive, to sync your devices, and never uses it for anything else
+  or passes it to anyone.
 
 ## What goes over the internet
 
 Salah Bar only connects to the services below, and only to do what you asked.
-None of them receives your name, your settings, your location or an account,
-but like any web request they see your device's IP address.
+None of them receives your name, your settings or an account, and only the
+three that say so receive a location; like any web request they see your
+device's IP address.
 
 | Service | When | What it receives |
 |---|---|---|
 | **Apple** (location services) | When your location changes | Your coordinates, to turn them into a place name such as "Manisa, TR" ([Apple's privacy policy](https://www.apple.com/legal/privacy/) applies) |
 | **Apple Maps** | When you search for a city in Settings, and when you open *Nearby mosques* beside the Qibla | The text you type, or your location, to find the city or the mosques around it (Apple's privacy policy applies) |
+| **Open-Meteo** (api.open-meteo.com) | Only with *Show the weather* on (Settings → Appearance): when you turn it on, then at most every 30 minutes while the app is open | Your location rounded to 0.1° (about 10 km), to get the current weather there; nothing else is sent with it |
 | **mp3quran.net** | Only when you use the Quran player, the Mushaf or Hifz mode | Requests for the reciters list (at most once a week), for the surahs you play or download, and for the ayah timings that highlight the ayah being recited |
 | **EveryAyah.com** | Only in Hifz mode, for reciters that mp3quran.net has no ayah timings for | Requests for the ayahs you repeat, one file per ayah |
 | **Quran for Android** (android.quran.com, files.quran.app) | Only when you choose a translation or tafsir in the Mushaf, or a printed page style (Madani, Shamarly, IndoPak) | Requests for that translation's file or those page images, downloaded once |
@@ -108,11 +133,23 @@ but like any web request they see your device's IP address.
 | **Wikimedia Commons** (upload.wikimedia.org) | Only when you play a name in the 99 Names (or a name-of-the-day card) or download the names for offline use | Requests for the recordings you play or download |
 | **GitHub** | When you add an adhan from the online library; and, in the Mac version downloaded from GitHub, when it checks for updates (every 6 hours, with the Sparkle updater) | Requests for the adhan file (from this project's GitHub releases), or for the update feed |
 | **Your mosque's website** (the link you give) or **islamic.app** (api.islamic.app) | Only with *Iqama times from your mosque* on (Settings → Iqama): when you save the link, when you tap *Refresh now*, and once a week | A request for the iqama timetable at that link (or that islamic.app mosque); nothing is sent with it |
+| **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Only with *Sync with Google Drive* on: when you sign in, and at each sync | Your sign-in, on Google's own page, and the sync file described above, to and from your own Drive |
 
 Nothing else is contacted. Tanzil.net (the Quran text), Aladhan and Diyanet
 (prayer-time tables used in the app's tests) are credited in the app, but the
 app never connects to them: the Quran text ships inside the app, and prayer
 times are calculated on your device, not downloaded.
+
+**The weather** (off until you turn it on, on each device). The sky behind
+the next prayer and in the widgets is worked out on the device from the prayer
+times. If you turn on *Show the weather* (Settings → Appearance), Salah Bar
+first says what it will send, then asks Open-Meteo (open-meteo.com) for the
+current weather at your location rounded to 0.1° (about 10 km), at most every
+30 minutes while the app is open (on the Mac, while it runs), with no account,
+key, cookie or identifier. The answer (clouds, rain, snow…) stays on the device
+and is shared with its widgets. Turning the switch off stops the requests and
+forgets the last answer. Open-Meteo's terms and privacy policy apply to the
+request; its weather data is CC BY 4.0.
 
 Pressing **Support Salah Bar** opens Buy Me a Coffee or GitHub Sponsors in
 your browser, and the link to Salah Bar for Android opens Google Play. What
@@ -121,8 +158,11 @@ nothing.
 
 ## App Store privacy labels
 
-For the App Store's "App Privacy" section: Salah Bar collects no data and
-tracks nothing. Location, Health, calendar and photo access are used only on
+For the App Store's "App Privacy" section: Salah Bar tracks nothing and
+collects no data, with one optional exception: with *Show the weather* on, the
+location rounded to about 10 km goes to Open-Meteo, declared as Coarse
+Location, not linked to you, not used for tracking, for App Functionality.
+Location, Health, calendar and photo access are used only on
 the device, as described above, and are never linked to you or sent to the
 developer.
 

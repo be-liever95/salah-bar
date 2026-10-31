@@ -1,6 +1,6 @@
 # Salah Bar Gizlilik Politikası
 
-*Son güncelleme: 28 Ekim 2026*
+*Son güncelleme: 30 Ekim 2026*
 
 **Kısaca: Salah Bar hiçbir veri toplamaz.** Hesap, analiz, reklam ve takip
 yoktur. Ayarlarınız, konumunuz ve namaz kaydınız kendi cihazlarınızda kalır.
@@ -96,6 +96,28 @@ Salah Bar'ı (aynı uygulama, App Store'a geliyor) kapsar.
   Salah Bar yalnızca o tek dosyayı okur ve yazar. Dosyanın nereye gittiği,
   sizinle seçtiğiniz sürücü arasındadır ve o hizmetin gizlilik politikasına
   tabidir; geliştirici onu asla görmez.
+- **Google Drive** (her sürüm, siz açana kadar kapalı). *Ayarlar → Eşitleme →
+  Google Drive ile eşitle*, dosya seçmek yerine Google ile oturum açmanızı
+  sağlar. Salah Bar bunun için Google'dan tek bir izin ister: kendi dosyasını
+  Google Drive'ınızın gizli uygulama klasöründe tutmak (`drive.appdata`
+  kapsamı); Drive'daki diğer dosyalarınızın hiçbirini göremez, açamaz,
+  değiştiremez. Oraya aynı eşitleme dosyasını, "Salah Bar sync.json"u tutar ve
+  onu HTTPS üzerinden doğrudan cihazınızdan kendi Drive'ınıza gönderir; arada
+  Salah Bar sunucusu yoktur ve geliştirici ne dosyayı ne de hesabınızı görür.
+  Oturum anahtarı Mac'inizin veya iPhone'unuzun Anahtar Zinciri'nde, yalnızca o
+  cihazda tutulur; Salah Bar ayrıca göstermek için hesabınızın e-posta adresini
+  saklar. Google hesabınız ve Drive için [Google'ın gizlilik
+  politikası](https://policies.google.com/privacy) geçerlidir. *Oturumu Kapat*
+  bu cihazın verilerini dosyadan çıkarır ve burada eşitlemeyi durdurur;
+  *Verilerimi Drive'dan Kaldır* dosyayı (içindeki tüm cihazların verileriyle)
+  siler ve Salah Bar'ın erişimini kaldırır. Erişimi Google Hesabınızdan
+  (Güvenlik → Üçüncü taraf uygulamalar) da kaldırabilir, gizli verileri Drive →
+  Ayarlar → Uygulamaları yönet bölümünden silebilirsiniz. Salah Bar'ın Google
+  API'lerinden aldığı bilgileri kullanımı, Sınırlı Kullanım şartları dahil
+  [Google API Services User Data
+  Policy](https://developers.google.com/terms/api-services-user-data-policy)'ye
+  uyar: Drive'ınızda yalnızca kendi eşitleme dosyasını, cihazlarınızı eşitlemek
+  için okur ve yazar; onu başka hiçbir şey için kullanmaz ve kimseye vermez.
 
 ## İnternete gidenler
 
@@ -108,6 +130,7 @@ görürler.
 |---|---|---|
 | **Apple** (konum servisleri) | Konumunuz değiştiğinde | Koordinatlarınız, "Manisa, TR" gibi bir yer adına çevrilmek için ([Apple'ın gizlilik politikası](https://www.apple.com/legal/privacy/) geçerlidir) |
 | **Apple Haritalar** | Ayarlar'da bir şehir aradığınızda ve Kıble'nin yanındaki *Yakındaki camiler*'i açtığınızda | Yazdığınız metin veya konumunuz; şehri ya da çevresindeki camileri bulmak için (Apple'ın gizlilik politikası geçerlidir) |
+| **Open-Meteo** (api.open-meteo.com) | Yalnızca *Hava durumunu göster* açıkken (Ayarlar → Görünüm): açtığınızda, sonra uygulama açıkken en fazla 30 dakikada bir | Oradaki güncel hava durumunu almak için 0,1°'ye (yaklaşık 10 km) yuvarlanmış konumunuz; yanında başka hiçbir şey gönderilmez |
 | **mp3quran.net** | Yalnızca Kuran oynatıcıyı, Mushaf'ı veya Hıfz modunu kullandığınızda | Kâri listesi (en fazla haftada bir), çaldığınız ya da indirdiğiniz sureler ve okunan ayeti vurgulayan ayet zamanlamaları için istekler |
 | **EveryAyah.com** | Yalnızca Hıfz modunda, mp3quran.net'te ayet zamanlaması bulunmayan kâriler için | Tekrar ettiğiniz ayetler için istekler, her ayet için bir dosya |
 | **Quran for Android** (android.quran.com, files.quran.app) | Yalnızca Mushaf'ta bir meal veya tefsir ya da basılı sayfa düzeni (Madani, Shamarly, IndoPak) seçtiğinizde | O mealin dosyası veya o sayfa görselleri için istekler, bir kez indirilir |
@@ -116,6 +139,7 @@ görürler.
 | **Wikimedia Commons** (upload.wikimedia.org) | Yalnızca Esmâ-i Hüsnâ'dan bir ismi (ya da günün ismi kartını) dinlediğinizde veya isimleri çevrimdışı için indirdiğinizde | Dinlediğiniz ya da indirdiğiniz kayıtlar için istekler |
 | **GitHub** | Çevrimiçi kütüphaneden bir ezan eklediğinizde; ve GitHub'dan indirilen Mac sürümünde güncellemeleri denetlerken (6 saatte bir, Sparkle güncelleyicisiyle) | Ezan dosyası (bu projenin GitHub sürümlerinden) veya güncelleme akışı için istekler |
 | **Caminizin web sitesi** (verdiğiniz bağlantı) veya **islamic.app** (api.islamic.app) | Yalnızca *Kamet vakitleri caminizden* açıkken (Ayarlar → Kamet): bağlantıyı kaydettiğinizde, *Şimdi yenile*'ye dokunduğunuzda ve haftada bir | O bağlantıdaki (veya islamic.app'teki o caminin) kamet çizelgesi için bir istek; yanında hiçbir şey gönderilmez |
+| **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Yalnızca *Google Drive ile eşitle* açıkken: oturum açtığınızda ve her eşitlemede | Google'ın kendi sayfasında oturum açmanız ve yukarıda anlatılan eşitleme dosyası, kendi Drive'ınıza ve oradan |
 
 Başka hiçbir yere bağlanılmaz. Tanzil.net (Kuran metni) ile Aladhan ve
 Diyanet (uygulamanın testlerinde kullanılan namaz vakti tabloları) uygulamada
@@ -126,6 +150,8 @@ gelir ve namaz vakitleri indirilmez, cihazınızda hesaplanır.
 Sponsors'ı açar; Android için Salah Bar bağlantısı ise Google Play'i açar.
 Orada yaptıklarınız onların gizlilik politikalarına tabidir; Salah Bar'ın
 kendisi hiçbir şey göndermez.
+
+**Hava durumu** (siz açana kadar kapalı, her cihazda ayrı). Sıradaki vaktin ve widget'ların arkasındaki gökyüzü namaz vakitlerinden cihazda hesaplanır. *Hava durumunu göster*'i (Ayarlar → Görünüm) açarsanız Salah Bar önce ne göndereceğini söyler, sonra uygulama açıkken (Mac'te çalıştığı sürece) en fazla 30 dakikada bir, 0,1°'ye (yaklaşık 10 km) yuvarlanmış konumunuz için Open-Meteo'dan (open-meteo.com) güncel hava durumunu ister; hesap, anahtar, çerez veya tanımlayıcı yoktur. Gelen yanıt (bulut, yağmur, kar…) cihazda kalır ve widget'larıyla paylaşılır. Anahtarı kapatmak istekleri durdurur ve son yanıtı siler. İsteğe Open-Meteo'nun koşulları ve gizlilik politikası uygulanır; hava durumu verileri CC BY 4.0'dır. App Store'da bu, size bağlı olmayan, izleme için kullanılmayan, uygulama işlevi için Yaklaşık Konum olarak bildirilir ve yalnızca anahtar açıkken geçerlidir.
 
 ## App Store gizlilik etiketleri
 
