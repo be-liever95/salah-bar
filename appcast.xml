@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.40.0</title>
+      <pubDate>Sun, 01 Nov 2026 16:57:08 +0300</pubDate>
+      <sparkle:version>672</sparkle:version>
+      <sparkle:shortVersionString>2.40.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🔄 Sync with Google Drive: keep your settings, prayer log and Quran progress the same on all your devices through your own Google Drive. In Settings → Sync, tap Sign in with Google.</li><li>Salah Bar asks Google for one thing only: its own hidden folder in your Drive. It can't see your other files, and the developer never sees your data.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.40.0/Salah-Bar-2.40.0.dmg" sparkle:edSignature="Esuur7I6QObxBxbODpluJsXlhk0XJFtZWF3t+UOD0knBlQSx5qhtRBQGx6YDT0UcqAlYX2m5C2GfinaR52EkDQ==" length="71019598" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.39.0</title>
       <pubDate>Sun, 01 Nov 2026 12:12:01 +0300</pubDate>
       <sparkle:version>668</sparkle:version>

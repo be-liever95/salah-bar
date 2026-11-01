@@ -97,6 +97,20 @@ beside its font (`<family>-OFL.txt`):
 [Reem Kufi](https://github.com/aliftype/reem-kufi) (Khaled Hosny, Santiago Orozco),
 [El Messiri](https://github.com/Jovanny-Lemonad/El-Messiri) (Jovanny Lemonad, Mohamed Gaber).
 
+## The Sign in with Google button
+
+The Sign in with Google button follows Google's
+[branding guidelines](https://developers.google.com/identity/branding-guidelines).
+Its "G" (`google-g.png`) is taken from Google's
+[sign-in button kit](https://developers.google.com/static/identity/images/signin-assets.zip)
+without changes to its shape, colours or size. Google and the Google "G" logo are
+trademarks of Google LLC, used here only to show that you sign in with your Google
+account. The button's text is set in [Google Sans](https://github.com/googlefonts/googlesans)
+(Copyright 2025 The Google Sans Project Authors) under the
+[SIL Open Font License 1.1](https://openfontlicense.org). `GoogleSans-Medium.ttf` is
+its Medium instance, cut down to the button's characters. The licence text ships
+beside it as `GoogleSans-OFL.txt`.
+
 ## The Dhikr tab's hands (🤲)
 
 The Dhikr tab's icon is the "palms up together" emoji (U+1F932) from
