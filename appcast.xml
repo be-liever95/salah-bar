@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.39.0</title>
+      <pubDate>Sun, 01 Nov 2026 12:12:01 +0300</pubDate>
+      <sparkle:version>668</sparkle:version>
+      <sparkle:shortVersionString>2.39.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>🌤️ A clearer sky behind the next prayer: by day it reads as day in dark mode too, and the sun and moon stay clear of the text.</li><li>🌅 After Fajr the countdown always goes to sunrise, then to Dhuhr.</li><li>🔄 iCloud sync and the sync file now also carry the zakat sheet, Quran bookmarks, the daily wird, the tasbih, the adhkar and Al-Kahf marks and the Mushaf page.</li><li>📖 This week's khutbah for more countries on the iPhone, and fixes.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.39.0/Salah-Bar-2.39.0.dmg" sparkle:edSignature="Ev9MvYrnMtqD0oGtJ1Ton+WLeFIoSNoE5h9B0/Jf3HxeQJ2nFaXxCgxljxVJxcHjACyS5fHcEtC8dGXLMuvnDg==" length="70797731" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.38.0</title>
       <pubDate>Sat, 31 Oct 2026 23:32:05 +0300</pubDate>
       <sparkle:version>645</sparkle:version>
