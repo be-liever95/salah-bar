@@ -1,6 +1,6 @@
 # Datenschutzerklärung von Salah Bar
 
-*Zuletzt aktualisiert: 30. Oktober 2026*
+*Zuletzt aktualisiert: 1. November 2026*
 
 **Kurz gesagt: Salah Bar sammelt nichts.** Keine Konten, keine Analysen, keine
 Werbung und kein Tracking. Deine Einstellungen, dein Standort und dein
@@ -91,26 +91,29 @@ iPad und Apple Watch (dieselbe App, demnächst im App Store).
 - **iCloud** (nur die Mac-App-Store-Version und die iPhone/iPad-App). Wenn du
   *Mit iCloud synchronisieren* einschaltest, werden deine Einstellungen, dein
   Gebetsprotokoll, deine Fastentage, dein Koran-Fortschritt (Favoriten, wo du
-  aufgehört hast, die Khatma) und, für Schwestern, das Zyklusprotokoll in
-  deinem eigenen iCloud-Account gespeichert (Apples Schlüssel-Wert-Speicher),
-  damit dein Mac, dein iPhone und dein iPad sie teilen. Sie gehen unter deinem
-  Apple Account und
-  [Apples Datenschutzerklärung](https://www.apple.com/legal/privacy/) an
-  Apples Server; der Entwickler hat keinen Zugriff darauf. Die von GitHub
+  aufgehört hast, die Khatma, die Mushaf-Seite, die du liest), deine
+  Koran-Lesezeichen, das tägliche Wird, der Tasbih, welche Adhkar dir schon
+  gezeigt wurden und an welchen Tagen du Al-Kahf gehört hast, der Zakat-Bogen
+  und, für Schwestern, das Zyklusprotokoll in deinem eigenen iCloud-Account
+  gespeichert (Apples Schlüssel-Wert-Speicher), damit dein Mac, dein iPhone
+  und dein iPad sie teilen. Sie gehen unter deinem Apple Account und [Apples
+  Datenschutzerklärung](https://www.apple.com/legal/privacy/) an Apples
+  Server; der Entwickler hat keinen Zugriff darauf. Die von GitHub
   heruntergeladene Version hat kein iCloud.
 - **Die Sync-Datei** (jede Version, aus, bis du sie einschaltest).
-  *Einstellungen → Sync-Datei* lässt dich eine Datei namens
-  „Salah Bar sync.json“ in einem Cloud-Laufwerk deiner Wahl (iCloud Drive,
-  Google Drive, OneDrive, Dropbox, Nextcloud…) halten, damit Salah Bar auf
-  Windows, Android, einem anderen Mac oder einem iPhone dieselben Daten teilen
-  kann. Die Datei enthält für jedes deiner Geräte seinen Namen und seine
-  Plattform sowie dieselben Daten wie die iCloud-Synchronisierung:
-  Einstellungen (ohne gerätespezifische Dinge wie die Blitzwarnung),
-  Gebetsprotokoll, Fastentage, Koran-Fortschritt, das Khatma-Protokoll und,
-  für Schwestern, das Zyklusprotokoll. Salah Bar liest und schreibt nur diese
-  eine Datei. Wohin sie geht, ist eine Sache zwischen dir und dem Laufwerk,
-  das du gewählt hast, nach der Datenschutzerklärung dieses Dienstes; der
-  Entwickler sieht sie nie.
+  *Einstellungen → Sync-Datei* lässt dich eine Datei namens „Salah Bar
+  sync.json“ in einem Cloud-Laufwerk deiner Wahl (iCloud Drive, Google Drive,
+  OneDrive, Dropbox, Nextcloud…) halten, damit Salah Bar auf Windows, Android,
+  einem anderen Mac oder einem iPhone dieselben Daten teilen kann. Die Datei
+  enthält für jedes deiner Geräte seinen Namen und seine Plattform sowie
+  dieselben Daten wie die iCloud-Synchronisierung: Einstellungen (ohne
+  gerätespezifische Dinge wie die Blitzwarnung), Gebetsprotokoll, Fastentage,
+  Koran-Fortschritt (mit der Mushaf-Seite, die du liest), das
+  Khatma-Protokoll, Koran-Lesezeichen, das tägliche Wird, der Tasbih, die
+  Adhkar- und Al-Kahf-Markierungen, der Zakat-Bogen und, für Schwestern, das
+  Zyklusprotokoll. Salah Bar liest und schreibt nur diese eine Datei. Wohin
+  sie geht, ist eine Sache zwischen dir und dem Laufwerk, das du gewählt hast,
+  nach der Datenschutzerklärung dieses Dienstes; der Entwickler sieht sie nie.
 - **Google Drive** (jede Version, aus, bis du es einschaltest). *Einstellungen →
   Synchronisierung → Mit Google Drive synchronisieren* lässt dich dich mit
   Google anmelden, statt eine Datei zu wählen. Salah Bar bittet Google dann um
@@ -157,6 +160,7 @@ IP-Adresse deines Geräts.
 | **Wikimedia Commons** (upload.wikimedia.org) | Nur wenn du einen Namen unter den 99 Namen (oder eine Karte mit dem Namen des Tages) abspielst oder die Namen für offline lädst | Anfragen für die Aufnahmen, die du abspielst oder lädst |
 | **GitHub** | Wenn du einen Adhan aus der Online-Bibliothek hinzufügst; und, in der von GitHub heruntergeladenen Mac-Version, wenn sie nach Updates sucht (alle 6 Stunden, mit dem Sparkle-Updater) | Anfragen für die Adhan-Datei (aus den GitHub-Releases dieses Projekts) oder für den Update-Feed |
 | **Die Website deiner Moschee** (der Link, den du angibst) oder **islamic.app** (api.islamic.app) | Nur wenn *Iqama-Zeiten deiner Moschee* an ist (Einstellungen → Iqama): wenn du den Link sicherst, wenn du auf *Jetzt aktualisieren* tippst, und einmal pro Woche | Eine Anfrage nach dem Iqama-Zeitplan unter diesem Link (oder dieser Moschee auf islamic.app); sonst wird nichts mitgesendet |
+| **Diyanet** (dinhizmetleri.diyanet.gov.tr; www.turkiye.gov.tr), **DITIB** (www.ditib.de), **JAIS** (e-khutbah.jais.gov.my), **JAKIM** (www.islam.gov.my), **Ministerium für religiöse Stiftungen Kuwaits** (www.awqaf.gov.kw, content.awqaf.gov.kw), **Habous-Ministerium Marokkos** (www.habous.gov.ma), **Islamic Network** (sermons.islamic.network, cdn.islamic.network: the UAE's) | Nur für *Chutba dieser Woche* auf dem iPhone: wenn Sie sie öffnen, und wenn Heute donnerstags oder freitags ihre Karte zeigt, für das Land, dem sie folgt (das gewählte oder das der angezeigten Stadt, auf Ihrem Telefon ermittelt); und wenn Sie den Text einer Chutba (bei JAKIM und Kuwait zuerst die Seite der Predigt, um ihr PDF zu finden), die Word-Datei oder die Aufnahme öffnen | Eine Anfrage nach der Chutba-Liste dieser Behörde und nach den Dateien, die Sie öffnen oder laden; nichts über Sie oder Ihren Standort. Die Seiten Ägyptens und Singapurs öffnen sich in Salah Bars eigener Browseransicht wie jede besuchte Webseite |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Nur wenn *Mit Google Drive synchronisieren* an ist: bei der Anmeldung und bei jeder Synchronisierung | Deine Anmeldung, auf Googles eigener Seite, und die oben beschriebene Sync-Datei, in dein eigenes Drive und aus ihm |
 | **Die Religionsbehörde Ihres Landes** (dinhizmetleri.diyanet.gov.tr mit der Kopie bei e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Nur mit eingeschalteter *Predigt der Woche* (iPhone, iPad und Android): wenn Sie ihren Bildschirm öffnen (höchstens einmal pro Stunde) und donnerstags und freitags, bis die Predigt der Woche erschienen ist | Eine Anfrage nach der Predigtliste der Behörde und nach dem PDF oder der Aufnahme, die Sie öffnen oder laden |
 | **YouTube** (www.youtube.com) | Mit der Predigtliste der Türkei (Diyanet), zu denselben Zeiten | Eine Anfrage nach dem öffentlichen Feed von Salah Bars eigenem YouTube-Kanal, um das Video der Predigt der Woche zu finden; kein Konto, kein Schlüssel, keine Cookies |

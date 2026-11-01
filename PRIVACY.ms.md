@@ -1,6 +1,6 @@
 # Dasar Privasi Salah Bar
 
-*Kemas kini terakhir: 30 Oktober 2026*
+*Kemas kini terakhir: 1 November 2026*
 
 **Ringkasnya: Salah Bar tidak mengumpul apa-apa.** Tiada akaun, tiada
 analitik, tiada iklan dan tiada penjejakan. Tetapan anda, lokasi anda dan log
@@ -84,10 +84,12 @@ Apple Watch (aplikasi yang sama, akan tiba di App Store).
   ia jauh daripada telefon.
 - **iCloud** (versi Mac App Store dan aplikasi iPhone/iPad sahaja). Jika anda
   menghidupkan *Segerak dengan iCloud*, tetapan, log solat, puasa, kemajuan
-  Al-Quran (kegemaran, tempat berhenti, khatam) anda dan, untuk muslimah, log
-  kitaran disimpan dalam akaun iCloud anda sendiri (stor nilai-kunci Apple)
-  supaya Mac, iPhone dan iPad anda berkongsinya. Data itu pergi ke pelayan
-  Apple di bawah Akaun Apple anda dan [dasar privasi
+  Al-Quran (kegemaran, tempat berhenti, khatam, halaman Mushaf yang sedang
+  dibaca) anda, penanda buku Al-Quran, wirid harian, tasbih, zikir yang telah
+  dipaparkan dan hari al-Kahfi dimainkan, helaian zakat dan, untuk muslimah,
+  log kitaran disimpan dalam akaun iCloud anda sendiri (stor nilai-kunci
+  Apple) supaya Mac, iPhone dan iPad anda berkongsinya. Data itu pergi ke
+  pelayan Apple di bawah Akaun Apple anda dan [dasar privasi
   Apple](https://www.apple.com/legal/privacy/); pembangun tiada akses
   kepadanya. Versi yang dimuat turun daripada GitHub tiada iCloud.
 - **Fail segerak** (setiap versi, dimatikan sehingga anda menghidupkannya).
@@ -97,10 +99,12 @@ Apple Watch (aplikasi yang sama, akan tiba di App Store).
   lain atau iPhone boleh berkongsi data yang sama. Fail itu menyimpan, bagi
   setiap peranti anda, nama dan platformnya serta data yang sama seperti
   segerak iCloud: tetapan (tanpa perkara khusus peranti seperti amaran kilat),
-  log solat, puasa, kemajuan Al-Quran, log khatam dan, untuk muslimah, log
-  kitaran. Salah Bar hanya membaca dan menulis fail yang satu itu. Ke mana
-  fail itu pergi adalah antara anda dan pemacu yang anda pilih, di bawah dasar
-  privasi perkhidmatan itu; pembangun tidak pernah melihatnya.
+  log solat, puasa, kemajuan Al-Quran (termasuk halaman Mushaf yang sedang
+  dibaca), log khatam, penanda buku Al-Quran, wirid harian, tasbih, tanda
+  zikir dan al-Kahfi, helaian zakat dan, untuk muslimah, log kitaran. Salah
+  Bar hanya membaca dan menulis fail yang satu itu. Ke mana fail itu pergi
+  adalah antara anda dan pemacu yang anda pilih, di bawah dasar privasi
+  perkhidmatan itu; pembangun tidak pernah melihatnya.
 - **Google Drive** (setiap versi, dimatikan sehingga anda menghidupkannya).
   *Tetapan → Segerak → Segerakkan dengan Google Drive* membolehkan anda log
   masuk dengan Google dan bukannya memilih fail. Salah Bar kemudian meminta satu
@@ -147,6 +151,7 @@ permintaan web, ia melihat alamat IP peranti anda.
 | **Wikimedia Commons** (upload.wikimedia.org) | Hanya apabila anda memainkan nama daripada Asmaul Husna (atau kad nama hari ini) atau memuat turun nama-nama itu untuk luar talian | Permintaan untuk rakaman yang anda mainkan atau muat turun |
 | **GitHub** | Apabila anda menambah azan daripada pustaka dalam talian; dan, dalam versi Mac yang dimuat turun daripada GitHub, apabila ia menyemak kemas kini (setiap 6 jam, dengan pengemas kini Sparkle) | Permintaan untuk fail azan (daripada keluaran GitHub projek ini), atau untuk suapan (feed) kemas kini |
 | **Laman web masjid anda** (pautan yang anda berikan) atau **islamic.app** (api.islamic.app) | Hanya apabila *Waktu iqamah dari masjid anda* dihidupkan (Seting → Iqamah): apabila anda menyimpan pautan, apabila anda mengetik *Muat semula sekarang*, dan seminggu sekali | Permintaan jadual iqamah pada pautan itu (atau masjid itu di islamic.app); tiada apa-apa lagi dihantar |
+| **Diyanet** (dinhizmetleri.diyanet.gov.tr; www.turkiye.gov.tr), **DITIB** (www.ditib.de), **JAIS** (e-khutbah.jais.gov.my), **JAKIM** (www.islam.gov.my), **Kementerian Wakaf Kuwait** (www.awqaf.gov.kw, content.awqaf.gov.kw), **Kementerian Habous Maghribi** (www.habous.gov.ma), **Islamic Network** (sermons.islamic.network, cdn.islamic.network: the UAE's) | Hanya untuk *Khutbah minggu ini* pada iPhone: apabila anda membukanya, dan apabila Hari Ini memaparkan kadnya pada hari Khamis atau Jumaat, untuk negara yang diikutinya (yang anda pilih, atau negara bandar yang dipaparkan, ditentukan pada telefon anda); dan apabila anda membuka teks khutbah (bagi JAKIM dan Kuwait, halaman khutbah itu dahulu, untuk mencari PDFnya), fail Word atau rakamannya | Permintaan senarai khutbah pihak berkuasa itu dan fail yang anda buka atau muat turun; tiada apa-apa tentang anda atau lokasi anda. Halaman Mesir dan Singapura dibuka dalam paparan pelayar Salah Bar sendiri, seperti mana-mana laman web yang anda lawati |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Hanya apabila *Segerakkan dengan Google Drive* dihidupkan: semasa anda log masuk, dan pada setiap penyegerakan | Log masuk anda, pada halaman Google sendiri, dan fail segerak yang diterangkan di atas, ke dan dari Drive anda sendiri |
 | **Badan agama negara anda** (dinhizmetleri.diyanet.gov.tr berserta salinannya di e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Hanya apabila *Khutbah minggu ini* dihidupkan (iPhone, iPad dan Android): apabila anda membuka skrinnya (paling kerap sejam sekali), dan pada hari Khamis dan Jumaat sehingga khutbah minggu itu diterbitkan | Permintaan senarai khutbah badan itu, serta PDF atau rakaman yang anda buka atau muat turun |
 | **YouTube** (www.youtube.com) | Bersama senarai khutbah Turkiye (Diyanet), pada masa yang sama | Permintaan suapan awam saluran YouTube milik Salah Bar sendiri, untuk mencari video khutbah minggu itu; tiada akaun, kunci atau kuki |

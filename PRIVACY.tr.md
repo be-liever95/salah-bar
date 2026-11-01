@@ -1,6 +1,6 @@
 # Salah Bar Gizlilik Politikası
 
-*Son güncelleme: 30 Ekim 2026*
+*Son güncelleme: 1 Kasım 2026*
 
 **Kısaca: Salah Bar hiçbir veri toplamaz.** Hesap, analiz, reklam ve takip
 yoktur. Ayarlarınız, konumunuz ve namaz kaydınız kendi cihazlarınızda kalır.
@@ -79,12 +79,15 @@ Salah Bar'ı (aynı uygulama, App Store'a geliyor) kapsar.
   saat, telefondan uzaktayken vakitler için kendi konumunu kullanabilir.
 - **iCloud** (yalnızca Mac App Store sürümü ve iPhone/iPad uygulaması).
   *iCloud ile eşitle*'yi açarsanız ayarlarınız, namaz kaydınız, oruçlarınız,
-  Kuran ilerlemeniz (favoriler, kaldığınız yer, hatim) ve hanımlar için döngü
-  kaydı; Mac'iniz, iPhone'unuz ve iPad'iniz paylaşabilsin diye kendi iCloud
+  Kuran ilerlemeniz (favoriler, kaldığınız yer, hatim, okuduğunuz Mushaf
+  sayfası), Kuran yer imleri, günlük vird, tesbih, gördüğünüz zikirler ve
+  Kehf'i dinlediğiniz günler, zekât sayfası ve hanımlar için döngü kaydı;
+  Mac'iniz, iPhone'unuz ve iPad'iniz paylaşabilsin diye kendi iCloud
   hesabınızda (Apple'ın anahtar-değer deposu) saklanır. Bunlar Apple Hesabınız
-  altında ve [Apple'ın gizlilik politikası](https://www.apple.com/legal/privacy/)
-  kapsamında Apple'ın sunucularına gider; geliştiricinin bunlara erişimi
-  yoktur. GitHub'dan indirilen sürümde iCloud yoktur.
+  altında ve [Apple'ın gizlilik
+  politikası](https://www.apple.com/legal/privacy/) kapsamında Apple'ın
+  sunucularına gider; geliştiricinin bunlara erişimi yoktur. GitHub'dan
+  indirilen sürümde iCloud yoktur.
 - **Eşitleme dosyası** (her sürüm, siz açana kadar kapalı). *Ayarlar →
   Eşitleme dosyası*; Windows, Android, başka bir Mac veya bir iPhone'daki
   Salah Bar aynı verileri paylaşabilsin diye seçtiğiniz bir bulut sürücüsünde
@@ -92,10 +95,12 @@ Salah Bar'ı (aynı uygulama, App Store'a geliyor) kapsar.
   sync.json" adlı bir dosya tutmanızı sağlar. Dosya, her cihazınız için
   cihazın adını ve platformunu ve iCloud eşitlemesiyle aynı verileri içerir:
   ayarlar (yanıp sönen uyarı gibi yalnızca cihaza özgü olanlar hariç), namaz
-  kaydı, oruçlar, Kuran ilerlemesi, hatim kaydı ve hanımlar için döngü kaydı.
-  Salah Bar yalnızca o tek dosyayı okur ve yazar. Dosyanın nereye gittiği,
-  sizinle seçtiğiniz sürücü arasındadır ve o hizmetin gizlilik politikasına
-  tabidir; geliştirici onu asla görmez.
+  kaydı, oruçlar, Kuran ilerlemesi (okuduğunuz Mushaf sayfasıyla), hatim
+  kaydı, Kuran yer imleri, günlük vird, tesbih, zikir ve Kehf işaretleri,
+  zekât sayfası ve hanımlar için döngü kaydı. Salah Bar yalnızca o tek dosyayı
+  okur ve yazar. Dosyanın nereye gittiği, sizinle seçtiğiniz sürücü
+  arasındadır ve o hizmetin gizlilik politikasına tabidir; geliştirici onu
+  asla görmez.
 - **Google Drive** (her sürüm, siz açana kadar kapalı). *Ayarlar → Eşitleme →
   Google Drive ile eşitle*, dosya seçmek yerine Google ile oturum açmanızı
   sağlar. Salah Bar bunun için Google'dan tek bir izin ister: kendi dosyasını
@@ -139,6 +144,7 @@ görürler.
 | **Wikimedia Commons** (upload.wikimedia.org) | Yalnızca Esmâ-i Hüsnâ'dan bir ismi (ya da günün ismi kartını) dinlediğinizde veya isimleri çevrimdışı için indirdiğinizde | Dinlediğiniz ya da indirdiğiniz kayıtlar için istekler |
 | **GitHub** | Çevrimiçi kütüphaneden bir ezan eklediğinizde; ve GitHub'dan indirilen Mac sürümünde güncellemeleri denetlerken (6 saatte bir, Sparkle güncelleyicisiyle) | Ezan dosyası (bu projenin GitHub sürümlerinden) veya güncelleme akışı için istekler |
 | **Caminizin web sitesi** (verdiğiniz bağlantı) veya **islamic.app** (api.islamic.app) | Yalnızca *Kamet vakitleri caminizden* açıkken (Ayarlar → Kamet): bağlantıyı kaydettiğinizde, *Şimdi yenile*'ye dokunduğunuzda ve haftada bir | O bağlantıdaki (veya islamic.app'teki o caminin) kamet çizelgesi için bir istek; yanında hiçbir şey gönderilmez |
+| **Diyanet** (dinhizmetleri.diyanet.gov.tr; www.turkiye.gov.tr), **DITIB** (www.ditib.de), **JAIS** (e-khutbah.jais.gov.my), **JAKIM** (www.islam.gov.my), **Kuveyt Evkaf Bakanlığı** (www.awqaf.gov.kw, content.awqaf.gov.kw), **Fas Vakıflar Bakanlığı** (www.habous.gov.ma), **Islamic Network** (sermons.islamic.network, cdn.islamic.network: the UAE's) | Yalnızca iPhone'daki *Haftanın hutbesi* için: onu açtığınızda ve Bugün ekranı perşembe ya da cuma kartını gösterdiğinde, izlediği ülke için (seçtiğiniz ülke ya da görünen şehrin ülkesi, telefonunuzda belirlenir); ayrıca bir hutbenin metnini (JAKIM ve Kuveyt'te PDF'i bulmak için önce hutbenin kendi sayfası), Word dosyasını ya da ses kaydını açtığınızda | O kurumun hutbe listesi ve açtığınız ya da indirdiğiniz dosyalar için bir istek; sizinle ya da konumunuzla ilgili hiçbir şey gönderilmez. Mısır ve Singapur'un sayfaları, ziyaret ettiğiniz her web sayfası gibi Salah Bar'ın kendi tarayıcı görünümünde açılır |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Yalnızca *Google Drive ile eşitle* açıkken: oturum açtığınızda ve her eşitlemede | Google'ın kendi sayfasında oturum açmanız ve yukarıda anlatılan eşitleme dosyası, kendi Drive'ınıza ve oradan |
 | **Ülkenizin din işleri kurumu** (dinhizmetleri.diyanet.gov.tr ve e-Devlet'teki kopyası www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Yalnızca *Haftanın hutbesi* açıkken (iPhone, iPad ve Android): ekranını açtığınızda (en çok saatte bir) ve perşembe ile cuma, haftanın hutbesi gelene kadar | Kurumun hutbe listesi için bir istek, açtığınız ya da indirdiğiniz PDF veya ses kaydı için istekler |
 | **YouTube** (www.youtube.com) | Türkiye'nin (Diyanet'in) hutbe listesiyle, aynı zamanlarda | Haftanın hutbe videosunu bulmak için Salah Bar'ın kendi YouTube kanalının herkese açık akışı için bir istek; hesap, anahtar ya da çerez yok |

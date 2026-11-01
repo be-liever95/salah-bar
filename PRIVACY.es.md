@@ -1,6 +1,6 @@
 # Política de privacidad de Salah Bar
 
-*Última actualización: 30 de octubre de 2026*
+*Última actualización: 1 de noviembre de 2026*
 
 **En resumen: Salah Bar no recopila nada.** No hay cuentas, ni analíticas, ni
 anuncios, ni rastreo. Tus ajustes, tu ubicación y tu registro de oraciones se
@@ -83,13 +83,15 @@ Watch (la misma app, próximamente en el App Store).
   propia ubicación para los horarios cuando está lejos del teléfono.
 - **iCloud** (solo la versión del Mac App Store y la app de iPhone/iPad). Si
   activas *Sincronizar con iCloud*, tus ajustes, registro de oraciones,
-  ayunos, progreso del Corán (favoritos, dónde te quedaste, la jatma) y, para
-  las hermanas, el registro del ciclo se guardan en tu propia cuenta de iCloud
-  (el almacén clave-valor de Apple) para que tu Mac, iPhone y iPad los
-  compartan. Van a los servidores de Apple bajo tu Cuenta de Apple y la
-  [política de privacidad de Apple](https://www.apple.com/legal/privacy/); el
-  desarrollador no tiene acceso a ellos. La versión descargada de GitHub no
-  tiene iCloud.
+  ayunos, progreso del Corán (favoritos, dónde te quedaste, la jatma, la
+  página del Mushaf que estás leyendo), marcadores del Corán, el wird diario,
+  el tasbih, los adhkar ya mostrados y los días en que escuchaste Al-Kahf, la
+  hoja de zakat y, para las hermanas, el registro del ciclo se guardan en tu
+  propia cuenta de iCloud (el almacén clave-valor de Apple) para que tu Mac,
+  iPhone y iPad los compartan. Van a los servidores de Apple bajo tu Cuenta de
+  Apple y la [política de privacidad de
+  Apple](https://www.apple.com/legal/privacy/); el desarrollador no tiene
+  acceso a ellos. La versión descargada de GitHub no tiene iCloud.
 - **El archivo de sincronización** (todas las versiones, desactivado hasta que
   lo actives). *Ajustes → Archivo de sincronización* te permite mantener un
   archivo llamado «Salah Bar sync.json» en la unidad en la nube que elijas
@@ -98,7 +100,9 @@ Watch (la misma app, próximamente en el App Store).
   archivo contiene, para cada uno de tus dispositivos, su nombre y su
   plataforma y los mismos datos que la sincronización con iCloud: ajustes (sin
   lo que es propio de cada dispositivo, como el aviso con flash), registro de
-  oraciones, ayunos, progreso del Corán, el registro de jatma y, para las
+  oraciones, ayunos, progreso del Corán (con la página del Mushaf que estás
+  leyendo), el registro de jatma, los marcadores del Corán, el wird diario, el
+  tasbih, las marcas de adhkar y Al-Kahf, la hoja de zakat y, para las
   hermanas, el registro del ciclo. Salah Bar solo lee y escribe ese único
   archivo. Adónde va es cosa entre tú y la unidad que elegiste, bajo la
   política de privacidad de ese servicio; el desarrollador nunca lo ve.
@@ -147,6 +151,7 @@ dispositivo.
 | **Wikimedia Commons** (upload.wikimedia.org) | Solo cuando reproduces un nombre de los 99 nombres (o una tarjeta del nombre del día) o descargas los nombres para escucharlos sin conexión | Peticiones de las grabaciones que reproduces o descargas |
 | **GitHub** | Cuando añades un adhan desde la biblioteca en línea; y, en la versión para Mac descargada de GitHub, cuando busca actualizaciones (cada 6 horas, con el actualizador Sparkle) | Peticiones del archivo de adhan (desde las releases de GitHub de este proyecto), o del canal de actualizaciones |
 | **El sitio web de tu mezquita** (el enlace que indicas) o **islamic.app** (api.islamic.app) | Solo con *Horarios de iqama de tu mezquita* activado (Ajustes → Iqama): al guardar el enlace, al tocar *Actualizar ahora* y una vez por semana | Una solicitud del horario de iqama de ese enlace (o de esa mezquita en islamic.app); no se envía nada más |
+| **Diyanet** (dinhizmetleri.diyanet.gov.tr; www.turkiye.gov.tr), **DITIB** (www.ditib.de), **JAIS** (e-khutbah.jais.gov.my), **JAKIM** (www.islam.gov.my), **Ministerio de Awqaf de Kuwait** (www.awqaf.gov.kw, content.awqaf.gov.kw), **Ministerio de Habices de Marruecos** (www.habous.gov.ma), **Islamic Network** (sermons.islamic.network, cdn.islamic.network: the UAE's) | Solo para *Jutba de esta semana* en el iPhone: cuando la abre y cuando Hoy muestra su tarjeta un jueves o viernes, para el país que sigue (el que eligió o el de la ciudad mostrada, calculado en su teléfono); y cuando abre el texto de una jutba (en JAKIM y Kuwait, primero la página del sermón, para encontrar su PDF), el archivo de Word o la grabación | Una solicitud de la lista de jutbas de esa autoridad y de los archivos que abre o descarga; nada sobre usted ni su ubicación. Las páginas de Egipto y Singapur se abren en la vista de navegador propia de Salah Bar, como cualquier página web que visite |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Solo con *Sincronizar con Google Drive* activado: al iniciar sesión y en cada sincronización | Tu inicio de sesión, en la propia página de Google, y el archivo de sincronización descrito arriba, hacia y desde tu propio Drive |
 | **La autoridad religiosa de tu país** (dinhizmetleri.diyanet.gov.tr con su copia en e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Solo con *El sermón de la semana* activado (iPhone, iPad y Android): al abrir su pantalla (como mucho una vez por hora), y los jueves y viernes hasta que salga el sermón de la semana | Una solicitud de la lista de sermones de la autoridad, y del PDF o la grabación que abras o descargues |
 | **YouTube** (www.youtube.com) | Con la lista de sermones de Turquía (Diyanet), en los mismos momentos | Una solicitud del canal público (feed) del propio canal de YouTube de Salah Bar, para encontrar el vídeo del sermón de la semana; sin cuenta, clave ni cookies |

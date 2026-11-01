@@ -1,6 +1,6 @@
 # Politique de confidentialité de Salah Bar
 
-*Dernière mise à jour : 30 octobre 2026*
+*Dernière mise à jour : 1er novembre 2026*
 
 **En bref : Salah Bar ne collecte rien.** Pas de compte, pas d’analyse
 d’audience, pas de publicité et pas de pistage. Vos réglages, votre position et
@@ -90,13 +90,15 @@ iPad et Apple Watch (la même app, bientôt sur l’App Store).
 - **iCloud** (version du Mac App Store et app iPhone/iPad seulement). Si vous
   activez *Synchroniser avec iCloud*, vos réglages, votre journal de prières,
   vos jeûnes, votre progression dans le Coran (favoris, endroit où vous vous
-  êtes arrêté, khatma) et, pour les sœurs, le journal du cycle sont stockés
-  dans votre propre compte iCloud (le stockage clé-valeur d’Apple) pour que
-  votre Mac, votre iPhone et votre iPad les partagent. Ils vont sur les
-  serveurs d’Apple sous votre compte Apple et la
-  [politique de confidentialité d’Apple](https://www.apple.com/legal/privacy/) ;
-  le développeur n’y a aucun accès. La version téléchargée depuis GitHub n’a
-  pas d’iCloud.
+  êtes arrêté, khatma, page du Mushaf que vous lisez), vos signets du Coran,
+  le wird quotidien, le tasbih, les adhkar déjà affichés et les jours où vous
+  avez écouté Al-Kahf, la feuille de zakat et, pour les sœurs, le journal du
+  cycle sont stockés dans votre propre compte iCloud (le stockage clé-valeur
+  d’Apple) pour que votre Mac, votre iPhone et votre iPad les partagent. Ils
+  vont sur les serveurs d’Apple sous votre compte Apple et la [politique de
+  confidentialité d’Apple](https://www.apple.com/legal/privacy/) ; le
+  développeur n’y a aucun accès. La version téléchargée depuis GitHub n’a pas
+  d’iCloud.
 - **Le fichier de synchronisation** (toutes les versions, désactivé tant que
   vous ne l’activez pas). *Réglages → Fichier de synchronisation* vous permet
   de conserver un fichier nommé « Salah Bar sync.json » dans le disque cloud
@@ -106,10 +108,12 @@ iPad et Apple Watch (la même app, bientôt sur l’App Store).
   nom et sa plateforme ainsi que les mêmes données que la synchronisation
   iCloud : réglages (sans les éléments propres à l’appareil, comme
   l’avertissement par flash), journal de prières, jeûnes, progression dans le
-  Coran, journal de khatma et, pour les sœurs, journal du cycle. Salah Bar ne
-  lit et n’écrit que ce seul fichier. Où il va ne regarde que vous et le
-  service que vous avez choisi, selon la politique de confidentialité de ce
-  service ; le développeur ne le voit jamais.
+  Coran (avec la page du Mushaf que vous lisez), journal de khatma, signets du
+  Coran, wird quotidien, tasbih, adhkar et Al-Kahf cochés, feuille de zakat
+  et, pour les sœurs, journal du cycle. Salah Bar ne lit et n’écrit que ce
+  seul fichier. Où il va ne regarde que vous et le service que vous avez
+  choisi, selon la politique de confidentialité de ce service ; le développeur
+  ne le voit jamais.
 - **Google Drive** (toutes les versions, désactivé tant que vous ne l’activez
   pas). *Réglages → Synchronisation → Synchroniser avec Google Drive* vous
   permet de vous connecter avec Google au lieu de choisir un fichier. Salah Bar
@@ -156,6 +160,7 @@ IP de votre appareil.
 | **Wikimedia Commons** (upload.wikimedia.org) | Seulement quand vous écoutez un nom des 99 noms (ou une carte du nom du jour) ou téléchargez les noms pour l’écoute hors ligne | Des requêtes pour les enregistrements écoutés ou téléchargés |
 | **GitHub** | Quand vous ajoutez un adhan depuis la bibliothèque en ligne ; et, dans la version Mac téléchargée depuis GitHub, quand elle recherche des mises à jour (toutes les 6 heures, avec le système de mise à jour Sparkle) | Des requêtes pour le fichier d’adhan (depuis les releases GitHub de ce projet), ou pour le flux de mises à jour |
 | **Le site de votre mosquée** (le lien que vous donnez) ou **islamic.app** (api.islamic.app) | Seulement avec *Horaires d'iqama de votre mosquée* activé (Réglages → Iqama) : quand vous enregistrez le lien, quand vous touchez *Actualiser maintenant*, et une fois par semaine | Une requête pour les horaires d'iqama à ce lien (ou de cette mosquée sur islamic.app) ; rien d'autre n'est envoyé |
+| **Diyanet** (dinhizmetleri.diyanet.gov.tr; www.turkiye.gov.tr), **DITIB** (www.ditib.de), **JAIS** (e-khutbah.jais.gov.my), **JAKIM** (www.islam.gov.my), **Ministère des Awqaf du Koweït** (www.awqaf.gov.kw, content.awqaf.gov.kw), **Ministère des Habous du Maroc** (www.habous.gov.ma), **Islamic Network** (sermons.islamic.network, cdn.islamic.network: the UAE's) | Seulement pour *Khutba de la semaine* sur l'iPhone : quand vous l'ouvrez, et quand Aujourd'hui affiche sa carte un jeudi ou un vendredi, pour le pays qu'elle suit (celui que vous avez choisi, ou celui de la ville affichée, déterminé sur votre téléphone) ; et quand vous ouvrez le texte d'une khutba (pour JAKIM et le Koweït, d'abord la page du sermon, pour trouver son PDF), le fichier Word ou l'enregistrement | Une requête pour la liste des khutbas de cette autorité et pour les fichiers que vous ouvrez ou téléchargez ; rien sur vous ni sur votre position. Les pages de l'Égypte et de Singapour s'ouvrent dans la vue navigateur propre à Salah Bar, comme toute page web que vous visitez |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Seulement avec *Synchroniser avec Google Drive* activé : quand vous vous connectez, et à chaque synchronisation | Votre connexion, sur la page de Google elle-même, et le fichier de synchronisation décrit plus haut, vers et depuis votre propre Drive |
 | **L’autorité religieuse de votre pays** (dinhizmetleri.diyanet.gov.tr et sa copie sur e-Devlet www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Seulement avec *Le sermon de la semaine* activé (iPhone, iPad et Android) : à l’ouverture de son écran (au plus une fois par heure), et le jeudi et le vendredi jusqu’à la parution du sermon de la semaine | Une requête pour la liste des sermons de l’autorité, et pour le PDF ou l’enregistrement que vous ouvrez ou téléchargez |
 | **YouTube** (www.youtube.com) | Avec la liste des sermons de Turquie (Diyanet), aux mêmes moments | Une requête pour le flux public de la chaîne YouTube de Salah Bar, afin de trouver la vidéo du sermon de la semaine ; sans compte, clé ni cookies |

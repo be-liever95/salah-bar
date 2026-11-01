@@ -1,6 +1,6 @@
 # Salah Bar Privacy Policy
 
-*Last updated: 30 October 2026*
+*Last updated: 1 November 2026*
 
 **In short: Salah Bar collects nothing.** There are no accounts, no analytics, no
 ads and no tracking. Your settings, your location and your prayer log stay on
@@ -75,22 +75,26 @@ English · [Türkçe](PRIVACY.tr.md) · [العربية](PRIVACY.ar.md) · [ار
   the times when it is far from the phone.
 - **iCloud** (the Mac App Store version and the iPhone/iPad app only). If you
   turn on *Sync with iCloud*, your settings, prayer log, fasts, Quran progress
-  (favourites, where you stopped, the khatma) and, for sisters, the cycle log
-  are stored in your own iCloud account (Apple's key-value store) so your Mac,
+  (favourites, where you stopped, the khatma, the Mushaf page you're reading),
+  Quran bookmarks, the daily wird, the tasbih, which adhkar you've seen and
+  when you played Al-Kahf, the zakat sheet and, for sisters, the cycle log are
+  stored in your own iCloud account (Apple's key-value store) so your Mac,
   iPhone and iPad share them. They go to Apple's servers under your Apple
   Account and [Apple's privacy policy](https://www.apple.com/legal/privacy/);
   the developer has no access to them. The version downloaded from GitHub has
   no iCloud.
 - **The sync file** (every version, off until you turn it on). *Settings →
-  Sync file* lets you keep a file named "Salah Bar sync.json" in a cloud
-  drive of your choice (iCloud Drive, Google Drive, OneDrive, Dropbox,
-  Nextcloud…) so Salah Bar on Windows, Android, another Mac or an iPhone can
-  share the same data. The file holds, for each of your devices, its name and
-  platform and the same data as iCloud sync: settings (without device-only
-  things such as the flash warning), prayer log, fasts, Quran progress, the
-  khatma log and, for sisters, the cycle log. Salah Bar only reads and writes
-  that one file. Where it goes is between you and the drive you chose, under
-  that service's privacy policy; the developer never sees it.
+  Sync file* lets you keep a file named "Salah Bar sync.json" in a cloud drive
+  of your choice (iCloud Drive, Google Drive, OneDrive, Dropbox, Nextcloud…)
+  so Salah Bar on Windows, Android, another Mac or an iPhone can share the
+  same data. The file holds, for each of your devices, its name and platform
+  and the same data as iCloud sync: settings (without device-only things such
+  as the flash warning), prayer log, fasts, Quran progress (with the Mushaf
+  page you're reading), the khatma log, Quran bookmarks, the daily wird, the
+  tasbih, the adhkar and Al-Kahf marks, the zakat sheet and, for sisters, the
+  cycle log. Salah Bar only reads and writes that one file. Where it goes is
+  between you and the drive you chose, under that service's privacy policy;
+  the developer never sees it.
 - **Google Drive** (every version, off until you turn it on). *Settings → Sync →
   Sync with Google Drive* lets you sign in with Google instead of choosing a
   file. Salah Bar then asks Google for one permission only, to keep its own file
@@ -133,6 +137,7 @@ device's IP address.
 | **Wikimedia Commons** (upload.wikimedia.org) | Only when you play a name in the 99 Names (or a name-of-the-day card) or download the names for offline use | Requests for the recordings you play or download |
 | **GitHub** | When you add an adhan from the online library; and, in the Mac version downloaded from GitHub, when it checks for updates (every 6 hours, with the Sparkle updater) | Requests for the adhan file (from this project's GitHub releases), or for the update feed |
 | **Your mosque's website** (the link you give) or **islamic.app** (api.islamic.app) | Only with *Iqama times from your mosque* on (Settings → Iqama): when you save the link, when you tap *Refresh now*, and once a week | A request for the iqama timetable at that link (or that islamic.app mosque); nothing is sent with it |
+| **Diyanet** (dinhizmetleri.diyanet.gov.tr; www.turkiye.gov.tr), **DITIB** (www.ditib.de), **JAIS** (e-khutbah.jais.gov.my), **JAKIM** (www.islam.gov.my), **Kuwait's Ministry of Awqaf** (www.awqaf.gov.kw, content.awqaf.gov.kw), **Morocco's Ministry of Habous** (www.habous.gov.ma), **Islamic Network** (sermons.islamic.network, cdn.islamic.network: the UAE's) | Only for *This week's khutbah* on the iPhone: when you open it, and when Today shows its card on a Thursday or Friday, for the country it follows (the one you chose, or the city on show's, worked out on your phone); and when you open a khutbah's text (for JAKIM and Kuwait, the sermon's own page first, to find its PDF), Word file or recording | A request for that authority's list of khutbahs and for the files you open or download; nothing about you or where you are. Egypt's and Singapore's pages open in Salah Bar's own browser view, like any web page you visit |
 | **Google** (accounts.google.com, oauth2.googleapis.com, www.googleapis.com) | Only with *Sync with Google Drive* on: when you sign in, and at each sync | Your sign-in, on Google's own page, and the sync file described above, to and from your own Drive |
 | **Your country's religious authority** (dinhizmetleri.diyanet.gov.tr with e-Devlet's copy at www.turkiye.gov.tr, ditib.de, e-khutbah.jais.gov.my) | Only with *This week's khutbah* on (iPhone, iPad and Android): when you open its screen (at most once an hour), and on Thursday and Friday until the week's sermon is in | A request for the authority's list of sermons, and for the PDF or recording you open or download |
 | **YouTube** (www.youtube.com) | With Türkiye's (Diyanet's) khutbah list, at the same times | A request for the public feed of Salah Bar's own YouTube channel, to find the week's khutbah video; no account, no key, no cookies |
