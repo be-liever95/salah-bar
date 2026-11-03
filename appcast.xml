@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.40.1</title>
+      <pubDate>Tue, 03 Nov 2026 21:12:07 +0300</pubDate>
+      <sparkle:version>676</sparkle:version>
+      <sparkle:shortVersionString>2.40.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Prayer log sync fix: Reset Log, Made Up One and a qada count you lower now stay that way on your other devices, instead of coming back at the next sync. Update Salah Bar on every device that syncs.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.40.1/Salah-Bar-2.40.1.dmg" sparkle:edSignature="+oGj1IxxM5h9V5tLinUpcf36pbBB23nT1uHbVjiU1aLyCiZS5glmWmEtHaRGVDXlp8KCesjcZqHcMM1n9xS5CA==" length="70964185" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.40.0</title>
       <pubDate>Sun, 01 Nov 2026 16:57:08 +0300</pubDate>
       <sparkle:version>672</sparkle:version>
