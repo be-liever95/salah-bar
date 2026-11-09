@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.40.2</title>
+      <pubDate>Mon, 09 Nov 2026 15:09:26 +0300</pubDate>
+      <sparkle:version>684</sparkle:version>
+      <sparkle:shortVersionString>2.40.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Living sky: when the sun and the moon are on the same side of the sky, the moon no longer sits on top of the sun.</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.40.2/Salah-Bar-2.40.2.dmg" sparkle:edSignature="hHvGTmTGEz93v+o1sDIhoYMWjWBZQUvjV6HtxXVSkr6rpMcIWZveJNOYut0dI880cMOfKNS+qpHKLUHtTDnDBw==" length="71032954" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.40.1</title>
       <pubDate>Tue, 03 Nov 2026 21:12:07 +0300</pubDate>
       <sparkle:version>676</sparkle:version>
