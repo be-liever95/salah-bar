@@ -1,6 +1,6 @@
 # Salah Bar Gizlilik Politikası
 
-*Son güncelleme: 1 Kasım 2026*
+*Son güncelleme: 15 Kasım 2026*
 
 **Kısaca: Salah Bar hiçbir veri toplamaz.** Hesap, analiz, reklam ve takip
 yoktur. Ayarlarınız, konumunuz ve namaz kaydınız kendi cihazlarınızda kalır.
@@ -136,6 +136,7 @@ görürler.
 | **Apple** (konum servisleri) | Konumunuz değiştiğinde | Koordinatlarınız, "Manisa, TR" gibi bir yer adına çevrilmek için ([Apple'ın gizlilik politikası](https://www.apple.com/legal/privacy/) geçerlidir) |
 | **Apple Haritalar** | Ayarlar'da bir şehir aradığınızda ve Kıble'nin yanındaki *Yakındaki camiler*'i açtığınızda | Yazdığınız metin veya konumunuz; şehri ya da çevresindeki camileri bulmak için (Apple'ın gizlilik politikası geçerlidir) |
 | **Open-Meteo** (api.open-meteo.com) | Yalnızca *Hava durumunu göster* açıkken (Ayarlar → Görünüm): açtığınızda, sonra uygulama açıkken en fazla 30 dakikada bir | Oradaki güncel hava durumunu almak için 0,1°'ye (yaklaşık 10 km) yuvarlanmış konumunuz; yanında başka hiçbir şey gönderilmez |
+| **Altın ve gümüş fiyatları** (cdn.jsdelivr.net, latest.currency-api.pages.dev: ücretsiz fawazahmed0 döviz API'si) | Yalnızca *Fiyatları internetten al* açıkken (zekât tablosu; varsayılan olarak açık): zekât tablosunu açtığınızda, en fazla 6 saatte bir | Günün altın ve gümüş fiyat listeleri için istekler, her biri tüm para birimlerinde birden; sizinle, para biriminizle ya da tablonuzla ilgili hiçbir şey gönderilmez |
 | **mp3quran.net** | Yalnızca Kuran oynatıcıyı, Mushaf'ı veya Hıfz modunu kullandığınızda | Kâri listesi (en fazla haftada bir), çaldığınız ya da indirdiğiniz sureler ve okunan ayeti vurgulayan ayet zamanlamaları için istekler |
 | **EveryAyah.com** | Yalnızca Hıfz modunda, mp3quran.net'te ayet zamanlaması bulunmayan kâriler için | Tekrar ettiğiniz ayetler için istekler, her ayet için bir dosya |
 | **Quran for Android** (android.quran.com, files.quran.app) | Yalnızca Mushaf'ta bir meal veya tefsir ya da basılı sayfa düzeni (Madani, Shamarly, IndoPak) seçtiğinizde | O mealin dosyası veya o sayfa görselleri için istekler, bir kez indirilir |

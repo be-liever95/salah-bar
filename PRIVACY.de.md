@@ -1,6 +1,6 @@
 # Datenschutzerklärung von Salah Bar
 
-*Zuletzt aktualisiert: 1. November 2026*
+*Zuletzt aktualisiert: 15. November 2026*
 
 **Kurz gesagt: Salah Bar sammelt nichts.** Keine Konten, keine Analysen, keine
 Werbung und kein Tracking. Deine Einstellungen, dein Standort und dein
@@ -152,6 +152,7 @@ IP-Adresse deines Geräts.
 | **Apple** (Ortungsdienste) | Wenn sich dein Standort ändert | Deine Koordinaten, um sie in einen Ortsnamen wie „Manisa, TR“ zu verwandeln (es gilt [Apples Datenschutzerklärung](https://www.apple.com/legal/privacy/)) |
 | **Apple Karten** | Wenn du in den Einstellungen eine Stadt suchst und wenn du neben der Qibla *Moscheen in der Nähe* öffnest | Den Text, den du eingibst, oder deinen Standort, um die Stadt oder die Moscheen in der Umgebung zu finden (es gilt Apples Datenschutzerklärung) |
 | **Open-Meteo** (api.open-meteo.com) | Nur mit eingeschaltetem *Wetter anzeigen* (Einstellungen → Erscheinungsbild): beim Einschalten, dann höchstens alle 30 Minuten, solange die App geöffnet ist | Dein Standort, auf 0,1° (etwa 10 km) gerundet, um das aktuelle Wetter dort abzufragen; sonst wird nichts mitgesendet |
+| **Gold- und Silberpreise** (cdn.jsdelivr.net, latest.currency-api.pages.dev: die kostenlose fawazahmed0-Währungs-API) | Nur mit *Preise aus dem Internet holen* (das Zakat-Blatt; standardmäßig an): wenn du das Zakat-Blatt öffnest, höchstens alle 6 Stunden | Anfragen nach den Gold- und Silberpreislisten des Tages, jede in allen Währungen auf einmal; nichts über dich, deine Währung oder dein Blatt wird gesendet |
 | **mp3quran.net** | Nur wenn du den Koran-Player, den Mushaf oder den Hifz-Modus verwendest | Anfragen für die Rezitatorenliste (höchstens einmal pro Woche), für die Suren, die du abspielst oder herunterlädst, und für die Ayah-Zeitmarken, die die gerade rezitierte Ayah hervorheben |
 | **EveryAyah.com** | Nur im Hifz-Modus, für Rezitatoren, für die mp3quran.net keine Ayah-Zeitmarken hat | Anfragen für die Ayat, die du wiederholst, eine Datei pro Ayah |
 | **Quran for Android** (android.quran.com, files.quran.app) | Nur wenn du im Mushaf eine Übersetzung oder einen Tafsir wählst oder einen gedruckten Seitenstil (Madani, Shamarly, IndoPak) | Anfragen für die Datei dieser Übersetzung oder für diese Seitenbilder, einmal heruntergeladen |

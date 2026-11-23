@@ -5,6 +5,15 @@
     <link>https://github.com/be-liever95/salah-bar</link>
     <description>Salah Bar updates</description>
     <item>
+      <title>Salah Bar 2.41.0</title>
+      <pubDate>Mon, 23 Nov 2026 16:18:52 +0300</pubDate>
+      <sparkle:version>690</sparkle:version>
+      <sparkle:shortVersionString>2.41.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>💰 Zakat: gold and silver prices now come from the internet, so the nisab and the value of your gold and silver are up to date. A price you type still wins; turn it off in Zakat → Prices → Get prices from the internet.</li><li>🇶🇦 Qatar: prayer times now match the Ministry of Interior's published times (a minute later at Fajr, sunrise, Asr, Maghrib and Isha).</li></ul>]]></description>
+      <enclosure url="https://github.com/be-liever95/salah-bar/releases/download/v2.41.0/Salah-Bar-2.41.0.dmg" sparkle:edSignature="rBofZFfd0bfrpZWeHM27WIdHfU2UR/EcnRCjeT+s2jk6x1t+eAxYGZ+VL/t2N9b0+kNSCy1TMamTzd0KedSuBQ==" length="71199041" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Salah Bar 2.40.2</title>
       <pubDate>Mon, 09 Nov 2026 15:09:26 +0300</pubDate>
       <sparkle:version>684</sparkle:version>

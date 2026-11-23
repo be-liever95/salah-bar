@@ -1,6 +1,6 @@
 # Dasar Privasi Salah Bar
 
-*Kemas kini terakhir: 1 November 2026*
+*Kemas kini terakhir: 15 November 2026*
 
 **Ringkasnya: Salah Bar tidak mengumpul apa-apa.** Tiada akaun, tiada
 analitik, tiada iklan dan tiada penjejakan. Tetapan anda, lokasi anda dan log
@@ -143,6 +143,7 @@ permintaan web, ia melihat alamat IP peranti anda.
 | **Apple** (perkhidmatan lokasi) | Apabila lokasi anda berubah | Koordinat anda, untuk ditukar kepada nama tempat seperti "Manisa, TR" ([dasar privasi Apple](https://www.apple.com/legal/privacy/) terpakai) |
 | **Apple Maps** | Apabila anda mencari bandar dalam Tetapan, dan apabila anda membuka *Masjid berdekatan* di sebelah Kiblat | Teks yang anda taip, atau lokasi anda, untuk mencari bandar itu atau masjid di sekitarnya (dasar privasi Apple terpakai) |
 | **Open-Meteo** (api.open-meteo.com) | Hanya apabila *Tunjukkan cuaca* dihidupkan (Tetapan → Penampilan): apabila anda menghidupkannya, kemudian paling kerap setiap 30 minit semasa aplikasi dibuka | Lokasi anda yang dibundarkan kepada 0.1° (kira-kira 10 km), untuk mendapatkan cuaca semasa di situ; tiada apa-apa lagi dihantar bersamanya |
+| **Harga emas dan perak** (cdn.jsdelivr.net, latest.currency-api.pages.dev: API mata wang percuma fawazahmed0) | Hanya apabila *Dapatkan harga dari internet* dihidupkan (helaian zakat; hidup secara lalai): apabila anda membuka helaian zakat, paling kerap setiap 6 jam | Permintaan senarai harga emas dan perak hari itu, setiap satu dalam semua mata wang sekali gus; tiada apa-apa tentang anda, mata wang anda atau helaian anda dihantar |
 | **mp3quran.net** | Hanya apabila anda menggunakan pemain Al-Quran, Mushaf atau mod Hifz | Permintaan untuk senarai qari (paling banyak sekali seminggu), untuk surah yang anda mainkan atau muat turun, dan untuk masa ayat yang menyerlahkan ayat yang sedang dibaca |
 | **EveryAyah.com** | Hanya dalam mod Hifz, untuk qari yang mp3quran.net tiada masa ayatnya | Permintaan untuk ayat yang anda ulang, satu fail bagi setiap ayat |
 | **Quran for Android** (android.quran.com, files.quran.app) | Hanya apabila anda memilih terjemahan atau tafsir dalam Mushaf, atau gaya halaman cetak (Madani, Shamarly, IndoPak) | Permintaan untuk fail terjemahan itu atau imej halaman itu, dimuat turun sekali |

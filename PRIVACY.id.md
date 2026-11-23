@@ -1,6 +1,6 @@
 # Kebijakan Privasi Salah Bar
 
-*Terakhir diperbarui: 1 November 2026*
+*Terakhir diperbarui: 15 November 2026*
 
 **Singkatnya: Salah Bar tidak mengumpulkan apa pun.** Tidak ada akun, tidak
 ada analitik, tidak ada iklan, dan tidak ada pelacakan. Pengaturan Anda, lokasi
@@ -147,6 +147,7 @@ mereka melihat alamat IP perangkat Anda.
 | **Apple** (layanan lokasi) | Saat lokasi Anda berubah | Koordinat Anda, untuk diubah menjadi nama tempat seperti "Manisa, TR" ([kebijakan privasi Apple](https://www.apple.com/legal/privacy/) berlaku) |
 | **Apple Maps** | Saat Anda mencari kota di Pengaturan, dan saat Anda membuka *Masjid terdekat* di samping Kiblat | Teks yang Anda ketik, atau lokasi Anda, untuk menemukan kota itu atau masjid di sekitarnya (kebijakan privasi Apple berlaku) |
 | **Open-Meteo** (api.open-meteo.com) | Hanya jika *Tampilkan cuaca* aktif (Pengaturan → Tampilan): saat Anda mengaktifkannya, lalu paling sering setiap 30 menit selama aplikasi terbuka | Lokasi Anda yang dibulatkan ke 0,1° (sekitar 10 km), untuk mendapatkan cuaca saat ini di sana; tidak ada hal lain yang dikirim bersamanya |
+| **Harga emas dan perak** (cdn.jsdelivr.net, latest.currency-api.pages.dev: API kurs gratis fawazahmed0) | Hanya saat *Ambil harga dari internet* aktif (lembar zakat; aktif secara bawaan): saat Anda membuka lembar zakat, paling sering tiap 6 jam | Permintaan daftar harga emas dan perak hari itu, masing-masing dalam semua mata uang sekaligus; tidak ada yang dikirim tentang Anda, mata uang Anda, atau lembar Anda |
 | **mp3quran.net** | Hanya saat Anda memakai pemutar Al-Qur'an, Mushaf, atau mode Hifz | Permintaan daftar qari (paling banyak sekali seminggu), surah yang Anda putar atau unduh, dan waktu ayat yang menyorot ayat yang sedang dibaca |
 | **EveryAyah.com** | Hanya dalam mode Hifz, untuk qari yang waktu ayatnya tidak dimiliki mp3quran.net | Permintaan ayat yang Anda ulang, satu file per ayat |
 | **Quran for Android** (android.quran.com, files.quran.app) | Hanya saat Anda memilih terjemahan atau tafsir di Mushaf, atau gaya halaman cetak (Madani, Shamarly, IndoPak) | Permintaan file terjemahan itu atau gambar halaman itu, diunduh sekali |

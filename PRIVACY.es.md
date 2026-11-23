@@ -1,6 +1,6 @@
 # Política de privacidad de Salah Bar
 
-*Última actualización: 1 de noviembre de 2026*
+*Última actualización: 15 de noviembre de 2026*
 
 **En resumen: Salah Bar no recopila nada.** No hay cuentas, ni analíticas, ni
 anuncios, ni rastreo. Tus ajustes, tu ubicación y tu registro de oraciones se
@@ -143,6 +143,7 @@ dispositivo.
 | **Apple** (servicios de localización) | Cuando cambia tu ubicación | Tus coordenadas, para convertirlas en un nombre de lugar como «Manisa, TR» (se aplica la [política de privacidad de Apple](https://www.apple.com/legal/privacy/)) |
 | **Mapas de Apple** | Cuando buscas una ciudad en Ajustes, y cuando abres *Mezquitas cercanas* junto a la qibla | El texto que escribes, o tu ubicación, para encontrar la ciudad o las mezquitas de alrededor (se aplica la política de privacidad de Apple) |
 | **Open-Meteo** (api.open-meteo.com) | Solo con *Mostrar el tiempo* activado (Ajustes → Apariencia): al activarlo, y después como mucho cada 30 minutos mientras la app está abierta | Tu ubicación redondeada a 0,1° (unos 10 km), para obtener el tiempo actual allí; no se envía nada más con ella |
+| **Precios del oro y la plata** (cdn.jsdelivr.net, latest.currency-api.pages.dev: la API de divisas gratuita de fawazahmed0) | Solo con *Obtener precios de internet* activado (la hoja de zakat; activado por defecto): al abrir la hoja de zakat, como mucho cada 6 horas | Solicitudes de las listas de precios del oro y la plata del día, cada una en todas las monedas a la vez; no se envía nada sobre ti, tu moneda ni tu hoja |
 | **mp3quran.net** | Solo cuando usas el reproductor del Corán, el Mushaf o el modo Hifz | Peticiones de la lista de recitadores (como máximo una vez por semana), de las suras que reproduces o descargas, y de los tiempos de las aleyas que resaltan la aleya que se está recitando |
 | **EveryAyah.com** | Solo en el modo Hifz, para los recitadores de los que mp3quran.net no tiene tiempos de aleyas | Peticiones de las aleyas que repites, un archivo por aleya |
 | **Quran for Android** (android.quran.com, files.quran.app) | Solo cuando eliges una traducción o un tafsir en el Mushaf, o un estilo de página impresa (Madani, Shamarly, IndoPak) | Peticiones del archivo de esa traducción o de esas imágenes de página, descargados una sola vez |

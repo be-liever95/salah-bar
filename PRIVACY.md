@@ -1,6 +1,6 @@
 # Salah Bar Privacy Policy
 
-*Last updated: 1 November 2026*
+*Last updated: 15 November 2026*
 
 **In short: Salah Bar collects nothing.** There are no accounts, no analytics, no
 ads and no tracking. Your settings, your location and your prayer log stay on
@@ -129,6 +129,7 @@ device's IP address.
 | **Apple** (location services) | When your location changes | Your coordinates, to turn them into a place name such as "Manisa, TR" ([Apple's privacy policy](https://www.apple.com/legal/privacy/) applies) |
 | **Apple Maps** | When you search for a city in Settings, and when you open *Nearby mosques* beside the Qibla | The text you type, or your location, to find the city or the mosques around it (Apple's privacy policy applies) |
 | **Open-Meteo** (api.open-meteo.com) | Only with *Show the weather* on (Settings → Appearance): when you turn it on, then at most every 30 minutes while the app is open | Your location rounded to 0.1° (about 10 km), to get the current weather there; nothing else is sent with it |
+| **Gold and silver prices** (cdn.jsdelivr.net, latest.currency-api.pages.dev: the free fawazahmed0 currency API) | Only with *Get prices from the internet* on (the zakat sheet; on by default): when you open the zakat sheet, at most every 6 hours | Requests for the day's gold and silver price lists, each in every currency at once; nothing about you, your currency or your sheet is sent |
 | **mp3quran.net** | Only when you use the Quran player, the Mushaf or Hifz mode | Requests for the reciters list (at most once a week), for the surahs you play or download, and for the ayah timings that highlight the ayah being recited |
 | **EveryAyah.com** | Only in Hifz mode, for reciters that mp3quran.net has no ayah timings for | Requests for the ayahs you repeat, one file per ayah |
 | **Quran for Android** (android.quran.com, files.quran.app) | Only when you choose a translation or tafsir in the Mushaf, or a printed page style (Madani, Shamarly, IndoPak) | Requests for that translation's file or those page images, downloaded once |

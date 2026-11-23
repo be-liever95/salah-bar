@@ -1,6 +1,6 @@
 # Politique de confidentialité de Salah Bar
 
-*Dernière mise à jour : 1er novembre 2026*
+*Dernière mise à jour : 15 novembre 2026*
 
 **En bref : Salah Bar ne collecte rien.** Pas de compte, pas d’analyse
 d’audience, pas de publicité et pas de pistage. Vos réglages, votre position et
@@ -152,6 +152,7 @@ IP de votre appareil.
 | **Apple** (services de localisation) | Quand votre position change | Vos coordonnées, pour les transformer en nom de lieu tel que « Manisa, TR » (la [politique de confidentialité d’Apple](https://www.apple.com/legal/privacy/) s’applique) |
 | **Plans d’Apple** | Quand vous recherchez une ville dans les Réglages, et quand vous ouvrez *Mosquées à proximité* à côté de la qibla | Le texte que vous saisissez, ou votre position, pour trouver la ville ou les mosquées autour (la politique de confidentialité d’Apple s’applique) |
 | **Open-Meteo** (api.open-meteo.com) | Seulement avec *Afficher la météo* activé (Réglages → Apparence) : quand vous l’activez, puis au plus toutes les 30 minutes tant que l’app est ouverte | Votre position arrondie à 0,1° (environ 10 km), pour obtenir la météo actuelle à cet endroit ; rien d’autre n’est envoyé avec |
+| **Prix de l'or et de l'argent** (cdn.jsdelivr.net, latest.currency-api.pages.dev : l'API de devises gratuite fawazahmed0) | Seulement avec *Obtenir les prix sur internet* activé (la feuille de zakat ; activé par défaut) : quand vous ouvrez la feuille de zakat, au plus toutes les 6 heures | Des requêtes pour les listes de prix du jour de l'or et de l'argent, chacune dans toutes les devises à la fois ; rien sur vous, votre devise ou votre feuille n'est envoyé |
 | **mp3quran.net** | Seulement quand vous utilisez le lecteur du Coran, le Mushaf ou le mode Hifz | Des requêtes pour la liste des récitateurs (au plus une fois par semaine), pour les sourates que vous écoutez ou téléchargez, et pour les minutages des versets qui surlignent le verset en cours de récitation |
 | **EveryAyah.com** | Seulement en mode Hifz, pour les récitateurs dont mp3quran.net n’a pas les minutages des versets | Des requêtes pour les versets que vous répétez, un fichier par verset |
 | **Quran for Android** (android.quran.com, files.quran.app) | Seulement quand vous choisissez une traduction ou un tafsir dans le Mushaf, ou un style de page imprimée (Madani, Shamarly, IndoPak) | Des requêtes pour le fichier de cette traduction ou pour ces images de pages, téléchargés une seule fois |
